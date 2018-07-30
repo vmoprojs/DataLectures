@@ -1,6 +1,8 @@
 packages <- c("foreign","ggplot2","rgl","manipulate","ISwR","car","clusterSim",
-  "AER","sandwich","lmtest","lmSupport","erer","aod","latticeExtra",
-  "RColorBrewer","lattice","tseries","vars")
+              "AER","sandwich","lmtest","lmSupport","erer","aod","latticeExtra",
+              "RColorBrewer","lattice","tseries","vars",
+              "dplyr","survival","survminer","psych","vegan","mvnormtest","MASS",
+              "klaR")
 ipak <- function(pkg){
   new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
   if (length(new.pkg)) 
@@ -8,4 +10,3 @@ ipak <- function(pkg){
   sapply(pkg, require, character.only = TRUE)
 }
 ipak(packages)
-
