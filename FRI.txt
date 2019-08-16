@@ -1,0 +1,9 @@
+FRI.DES
+
+Frecuencia	Transaccionalidad	Ingresos
+
+  Obs:  5000
+      
+  1. Frecuencia                  Number of transactions over a month (January)
+  2. Transaccionalidad           Sum of the values over all transactions in that month
+  3. Ingresos                    Client Income
