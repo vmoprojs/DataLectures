@@ -1,0 +1,13 @@
+Nombre de las series: Series del precio del trigo en cinco provincias de Castilla, España.
+                      Las 5 provinvias en orden de las columnas son
+                       Avila, Palencia, Segovia, Valladolid y Zamora.
+Unidades :            moneda castellana
+Perido   :            Julio de 1880 a Diciembre de 1890
+Fuente   :            SAnchez Albornoz, N. (1975) Los precios agricolas durante la segunda mitad del siglo XIX.
+                      Vol. 1 . Trigo y cebada. Banco de España.
+Notas   :             Utilizados en los trabajos siguienets
+                 1.  Peña, D. y Sánchez Albornoz, N. (1983)Dependencia dinámica entre precios agrícolas.
+                      El trigo en España, 1857-1890. Estudios de Historia Económica número 8, Banco de España. 
+                  2. Peña, D. y Box G.E.P. (1987)   “Identifying a simplifying structure in time series”. 
+                     Journal of The American Statistical Association. 82, 399, pp.: 836-843. 1987.           
+ 

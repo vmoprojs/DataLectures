@@ -1,0 +1,10 @@
+Valores mínimos anuales del nivel del rio Nilo
+Datos anuales desde 622 hasta año 1284 
+
+11.57
+10.88
+11.69
+...
+11.51
+11.08
+10.97

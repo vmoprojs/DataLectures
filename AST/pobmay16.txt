@@ -1,0 +1,11 @@
+Nombre de la serie:        Población española mayor de 16 años 	
+Unidades :                 UNIDADES
+Periodo:                   Datos cuatrimestrales desde el primer cuatrimestre de 1977 al cuarto del 2000
+FUENTE:                    INE 
+ACTUALIZA:                  SGPC (Area coyuntura nacional)
+
+
+197701 25680.633 
+...
+
+200004 32876.100 

@@ -1,0 +1,15 @@
+Nombre de la series:   consumo gasolina auto	
+Unidades :             Miles de Toneladas métricas
+Perido   :             enero de 1966 a agosto de 1977
+Fuente   :             AOP e INH.
+Actualiza :            SGPC (Area coyuntura nacional)
+Notas     :           Este es el periodo de la serie estudiada en el Libro de 
+Peña (vol2) Estadistica,Modelos y Métodos de Alianza Editorial .
+Los datos son los originales, sin actualizaciones posteriores.Hay 140 observaciones
+
+  9.2718000e+001
+  9.1380000e+001
+......
+    5.3825400e+002
+  5.2800700e+002
+

@@ -1,0 +1,5 @@
+Sunpot data. 
+From Yao and Tong (1994).  Data is collected from 1700 to 1994.
+11.0
+...
+29.9

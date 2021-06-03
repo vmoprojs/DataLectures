@@ -1,0 +1,2630 @@
+Series del numero de visones (mink) y de ratas azmizcleras (muskrat) en 
+              Canada 
+
+Datos anuales desde 1848 a 1911 
+Los datos estan 
+
+ROW     mink      musk   year
+   1    37123    224347   1848
+   2    34712    179075   1849
+   3    29619    175472   1850
+
+.....
+  62    17857    302195   1909
+  63    21788    749142   1910
+  64    33008    963597   1911
+
+
+
+Saludos!
+
+Quería contarles con mucho agrado que participaré en la "Semana de la Ciencia, Tecnología, Emprendimiento e Innovación" con la ponencia "Innovación en Ecuador: un enfoque espacial".
+
+Más info en el link (sección: Congreso Internacional): http://www.sectei2019.tk/
+
+
+
+
+Successful Binary Compilation!!!=================================================================Successful convergenceOpenCL device for computationParameters:   scale_s    scale_t       sill   smooth_t  2.6652603  2.0909567 26.1111110  0.9234902 =================================================================> tCPU1 = proc.time()-tCPU1> print(tCPU1)     user    system   elapsed 57411.187   119.177  7796.318 > 7796.318 /60[1] 129.9386
+
+
+
+=================================================================Successful convergenceOpenCL device for computationParameters:   scale_s    scale_t       sill   smooth_t  2.6652603  2.0909567 26.1111110  0.9234902 =================================================================> tCPU1 = proc.time()-tCPU1> print(tCPU1)     user    system   elapsed 52318.056    52.284  6745.333 > 6745.333/60[1] 112.4222
+
+
+
+
+
+
+
+
+Successful Binary Compilation!!!=================================================================Successful convergence (type_sub = space)OpenCL device for computationParameters:   scale_s    scale_t       sill   smooth_t  0.9501227  3.3003681 34.8550313  0.2997546 =================================================================
+set.seed(1)
+aux.wide <- aux.wide[sample(1:nrow(aux.wide),30),]
+
+
+
+=================================================================
+Successful convergence (type_sub = time)
+OpenCL device for computation
+Parameters:
+   scale_s    scale_t       sill   smooth_t 
+ 1.7979224  2.3228329 29.6590486  0.9755563 
+
+=================================================================
+
+
+
+Ax: -58.70433 0 0 0 
+Ax: -65.82824 0 0 0 
+Ax: -70.07962 0 0 0 
+Ax: -77.4437 0 0 0 
+Ax: -69.12073 0 0 0 
+Ax: -72.27379 0 0 0 
+Ax: -72.46536 0 0 0 
+Ax: -74.77257 0 0 0 
+Ax: -73.18717 0 0 0 
+
+
+
+Ax: -58.70433 0 0 0 
+Ax: -65.82824 0 0 0 
+Ax: -70.07962 0 0 0 
+Ax: -77.4437 0 0 0 
+Ax: -62.39179 0 0 0 
+Ax: -66.21999 0 0 0 
+Ax: -72.46536 0 0 0 
+Ax: -70.54374 0 0 0 
+
+
+
+
+
+
+ALL DATA WITH TIME SUBSAMP:
+=================================================================Successful convergenceOpenCL device for computationParameters:   scale_s    scale_t       sill   smooth_t  4.1155630  3.4459223 24.6972681  0.3473184 =================================================================> tCPU1 = proc.time()-tCPU1> print(tCPU1)     user    system   elapsed 31160.143    79.661 16564.766 
+
+
+res2=STBEUFit((start),fix,coords,time,cc,datos,+               type_dist,maxdist ,maxtime,0,0,+               winc,winstp,type_subs,weighted)=================================================================Successful convergenceCPU device for computationParameters:   scale_s    scale_t       sill   smooth_t  4.1155630  3.4459223 24.6972681  0.3473184 =================================================================> tCPU2 = proc.time()-tCPU2> print(tCPU2)     user    system   elapsed 70853.276    89.493 71205.723 
+
+
+
+
+
+Uno de los pilares de una buena administración es una buena gestión de su propia información. 
+
+
+Es triste tener que recomendar estas cosas a una institución formal como un Municipio, pero nos vemos en la obligación de hacerlo.
+
+Estamos revisando las remuneraciones que publica el Municipio de Pelileo en el "Literal (C) Remuneración mensual por puesto" y nos encontramos con los siguientes errores:
+
+
+1. PROBLEMAS CON TILDES:
+
+"POLICIA MUNICIPAL"                                                     "POLICÍA MUNICIPAL"
+"GUARDIA"                                                               "GUARDIAN"                                                              "GUARDIÁN"
+
+
+2. PALABRAS MAL ESCRITAS:
+
+"ASISTENTE DMINISTRATIVO/A"  
+
+
+3. Se distingue el cargo con género, como "TÉCNICO" y "TÉCNICA". Si de desea distinguir por sexo, la forma correcta es con un nuevo campo (otra columna en la tabla) donde se diga si es femenino o masculino
+
+
+
+Nos preguntamos, Si así tiene el Municipio la información PÚBLICA, ¿Cómo son los registros internos?
+
+¿Pelileo necesita más servidores en el Municipio?
+
+
+
+
+
+
+
+Como pueden apreciar en el video, el Alcalde sostiene que si es necesario más servidores en el Municipio. Pero, ¿Es cierto? 
+
+Veamos, los funcionarios por cada mil habitantes son (fuente: literal C de la ley de transparencia, INEC)
+
+	- Pelileo 4.5
+	- Ambato 4.3, 
+	- Quito 3.3 
+	- Cuenca 2 
+
+Esto significa, que desde esta perspectiva, Cuenca es el cantón más eficiente. Pelileo debe aprender de los GADS que mejor están llevando la gestión pública. Es decir, Cuenca es una administración que muestra que si es posible administrar un GAD con menos personal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##### Example STBEU -- TEMPERATURE
+library(weathercan)
+library(dplyr)
+library(GeoModels)
+rm( list = ls())
+graphics.off()
+gc()
+cat("\014")
+
+
+# mb <- filter(stations,
+#              prov == "ON",
+#              interval == "day",
+#              end >= 2018) %>%
+#   select(-prov)
+
+
+# setwd("d:/Users_info/MORALESV/My Documents/Proyectos/Varios/STBEU/Data")
+setwd("~/Documents/Software/STBEU/AppFinal/Data")
+
+# mb_weather_all <- weather_dl(station_ids = mb$station_id,
+#                              start = "2018-03-20",
+#                              interval = "hour", quiet = TRUE)
+# save(mb_weather_all,file =  "OntarioHour-2018-03-20.RData")
+
+
+load("OntarioHour-2018-03-20.RData")
+
+
+# Spring - March 20 to June 20  (NO)
+# st <- "2018-03-20"
+# ed <- "2018-06-20"
+
+# Summer - June 21 to September 21 (YES)
+st <- "2018-06-21"
+ed <- "2018-09-21"
+
+# Fall (or Autumn) - September 22 to December 20 (YES!)
+# st <- "2018-09-22"
+# ed <- "2018-12-20"
+
+# Winter - December 21 to March 19 (NO)
+# st <- "2018-12-21"
+# ed <- "2019-03-19"
+
+
+
+
+fil <- mb_weather_all$date >= st & mb_weather_all$date <= ed
+aux <- mb_weather_all[fil, ]
+
+# View(head(aux))
+
+# plot(density(((aux$temp)),na.rm = TRUE))
+
+str(aux)
+
+names(aux)
+aux <- aux[,c("temp","lon","lat","time")]
+aux <- data.frame(aux)
+# aux <- aux[!duplicated(aux),]
+
+
+
+
+# plot(density(((aux$temp)),na.rm = TRUE))
+
+aux.wide <- reshape(aux, idvar = c("lon","lat"), timevar = "time", direction = "wide")
+str(aux.wide)
+set.seed(1)
+# aux.wide <- aux.wide[sample(1:nrow(aux.wide),30),]
+# View(head(aux.wide))
+
+datos <- as.matrix(aux.wide[,3:ncol(aux.wide)])
+colnames(datos) <- seq(length(unique(aux$time)))
+datos <- t(datos)
+str(datos)
+coords <- cbind(aux.wide$lon,aux.wide$lat)
+# plot(coords)
+
+library(impute)
+
+col.in <- (apply(apply(datos,2,is.na),2,sum)/nrow(datos)<0.01)
+
+coords <- coords[col.in,]
+# plot(coords)
+
+datos <- datos[,col.in]
+
+datos <- impute.knn(datos)
+datos <- datos$data
+
+# plot(datos[,5], t = "l")
+
+str(datos)
+
+library(tseries)
+
+sol <- NULL
+DFalfa = NULL
+for( i in 1:ncol(datos))
+{
+  sol.ppTest <- pp.test(ts(datos[,i]))
+  sol <- c(sol,sol.ppTest$p.value)
+  DFalfa = c(DFalfa,sol.ppTest$statistic)
+}
+# plot(sol)
+# plot(DFalfa)
+
+
+# plot(density(((aux$temp)),na.rm = TRUE))
+
+
+# plot(density(datos))
+
+
+
+
+
+Mañana estará en reunión el concejo de Pelileo para tratar temas importantes que pueden comprometer el bolsillo de los pelileños, estos son:
+
+1. REFORMA AL PRESUPUESTO DEL GAD MUNICIPAL DEL PELILEO: es importante saber si va a subir el presupuesto. ¿De dónde saldrían esos recursos?	
+
+2. ORDENANZA PARA EL COBRO DEL IMPUESTO MUNICIPAL A LOS VEHÍCULOS MOTORIZADOS DENTRO DEL CANTÓN PELILEO: creemos que no solo las ordenanzas, sino también los proyectos deben ser socializados a los pelileños. Este en particular, podría afectar a todo el parque automotor del Cantón.
+
+3. ORDENANZA DE INQUILINATO Y REGISTRO DE PROPIEDADES RENTERAS EN EL CANTÓN SAN PEDRO DE PELILEO: Sería importante saber el verdadero alcance de esta ordenanza. Se trata solo un tema de catastrar estas viviendas? O, ¿cuál es el objetivo de fondo?
+
+
+La socialización de los detalles de estos documentos es parte de una verdadera transparencia. Esperemos que sepan tomar las mejores decisiones. 
+
+
+
+NO: 253
+
+
+
+
+# GEOMODELS FOR STBEU:
+
+# Set the covariance model's parameters:
+corrmodel="Exp_Exp"
+scale_s=0.2/3
+scale_t=1
+sill=var(as.vector(datos),na.rm = TRUE)
+nugget=0
+mean=mean(datos,na.rm=TRUE)
+
+param<-list(mean=mean,scale_s=scale_s,scale_t=scale_t,
+            sill=sill,nugget=nugget)
+
+################################################################
+###
+### Example 8. Maximum pairwise likelihood fitting of a
+### space time Gaussian RF with double-exponential correlation.
+###
+###############################################################
+# Fixed parameters
+fixed<-list(nugget=nugget)
+# Starting value for the estimated parameters
+start<-list(mean=mean,scale_s=scale_s,scale_t=scale_t,sill=sill)
+
+
+smooth_t=2 # k or kappa
+scale_t=time_comp_supp=0.75     # compact supportt scale_t
+scale_s=0.1
+power2_t=3.5+smooth_t #nu
+power_s=2
+power2_s=2.5+2*smooth_t# tau
+sep=1
+
+start=list(scale_s=scale_s,scale_t=scale_t,sill=sill,smooth_t=smooth_t)
+fix=c(nugget=nugget,power2_s=power2_s,power2_t=power2_t,sep=sep,mean = mean,power_s=power_s)
+fixed = list(nugget=nugget,power2_s=power2_s,power2_t=power2_t,sep=sep,mean = mean,power_s=power_s)
+
+
+
+
+maxdist <- 2
+maxtime <- 2
+time <- 1:nrow(datos)
+
+# # OpenCL
+GPU = 0
+local = c(1,1)
+GPUtime <- proc.time()
+fit1 <- GeoFit(data=datos,coordx=coords,coordt=time,
+               corrmodel="Wen_time",maxtime=maxtime,maxdist=maxdist,
+               likelihood="Marginal",type="Pairwise",
+               start=start,fixed=fixed)
+GPUtime <- proc.time() - GPUtime
+fit1
+
+# Estimated parameters:
+#   mean  scale_s  scale_t     sill  
+# 6.236    3.630   12.220  120.356  
+# user    system   elapsed
+# 18126.714    64.912  2593.831
+
+# CPUtime;GPUtime
+
+
+
+
+
+# STBEU
+
+################################################
+#   parameters for the temporal subsampling ####
+###############################################
+
+winc=5    ###  length of temporal window
+winstp=1 ###   0.5 half overlapping  1 "no" overlapping
+###############################################
+
+#################################################################
+theta=start                #starting value
+weighted=0
+type_dist=1                ### type of distance     1=euclidean 2=chordal  3=geodesic
+### eucliden likelihood ################
+type_subs=2   ### type of subsampling  1=in space    2= in time
+# cc = 1
+library(STBEU)
+library(MCMCpack)
+# tCPU = proc.time()
+# res=STBEUFit(unlist(theta),fixed,coords,time,cc,datos,type_dist,maxdist ,maxtime,0,0,winc,winstp,type_subs,weighted)
+# tCPU = proc.time()-tCPU
+# print(tCPU)
+
+
+
+# fixed = c(mean = 20,nugget = 0, sill = 31)
+smooth_t=2 # k or kappa
+scale_t=time_comp_supp=0.75     # compact supportt scale_t
+scale_s=0.1
+power2_t=3.5+smooth_t #nu
+power_s=2
+power2_s=2.5+2*smooth_t# tau
+sep=1
+
+start=list(scale_s=scale_s,scale_t=scale_t,sill=sill,smooth_t=smooth_t)
+fix=c(nugget=nugget,power2_s=power2_s,power2_t=power2_t,sep=sep,mean = mean,power_s=power_s)
+
+# cc = 3
+# tCPU1 = proc.time()
+# res1=STBEUFit((start),fix,coords,time,cc,datos,
+#               type_dist,maxdist ,maxtime,0,0,
+#               winc,winstp,type_subs,weighted,
+#               GPU =0, local = c(1,1))
+# tCPU1 = proc.time()-tCPU1
+# print(tCPU1)
+# 
+# str(datos)
+# 
+# 
+# cc = 3
+# tCPU2 = proc.time()
+# res2=STBEUFit((start),fix,coords,time,cc,datos,
+#               type_dist,maxdist ,maxtime,0,0,
+#               winc,winstp,type_subs,weighted)
+# tCPU2 = proc.time()-tCPU2
+# print(tCPU2)
+
+
+las siguientes matrices son potencialmente grandes
+
+Pz<-Z%*%(ZZ.inv)%*%t(Z) # projection matrix
+Mz<- I.n-Pz # projection matrix
+
+A<- Pz + Delta
+B<- Mz%*%G%*%Mz
+C<- A-B
+
+full = 1, o 2.
+
+
+
+
+
+
+
+
+
+
+load("OntarioSummer2018Hour.RData")
+aux <- aux[,c("temp","lon","lat","time")]
+aux <- data.frame(aux)
+# View(aux[aux$lon==-79.85	 & aux$lat == 47.7 & aux$time == "2018-06-21 13:00:00",])
+aux <- aux[!duplicated(aux),]
+
+
+aux.wide <- reshape(aux, idvar = c("lon","lat"), timevar = "time", direction = "wide")
+
+
+datos <- as.matrix(aux.wide[,3:ncol(aux.wide)])
+colnames(datos) <- seq(length(unique(aux$time)))
+datos <- t(datos)
+coords <- cbind(aux.wide$lon,aux.wide$lat)
+
+
+
+library(impute)
+col.in <- (apply(apply(datos,2,is.na),2,sum)/nrow(datos)<0.01)
+coords <- coords[col.in,]
+plot(coords)
+datos <- datos[,col.in]
+datos <- impute.knn(datos)
+datos <- datos$data
+
+
+
+maxdist <- 2
+maxtime <- 2
+time <- 1:nrow(datos)
+winc=5    ###  length of temporal window
+winstp=1 ###   0.5 half overlapping  1 "no" overlapping
+###############################################
+
+#################################################################
+theta=start #starting value
+weighted=0
+type_dist=1 ### type of distance     1=euclidean 2=chordal  3=geodesic
+### eucliden likelihood ################
+type_subs=2   ### type of subsampling  1=in space    2= in time
+# cc = 1
+library(STBEU)
+library(MCMCpack)
+
+smooth_t=2 # k or kappa
+scale_t=time_comp_supp=0.75     # compact supportt scale_t
+scale_s=0.1
+power2_t=3.5+smooth_t #nu
+power_s=2
+power2_s=2.5+2*smooth_t# tau
+sep=1
+
+sill=var(as.vector(datos),na.rm = TRUE)
+nugget=0
+mean=mean(datos,na.rm=TRUE)
+
+start=list(scale_s=scale_s,scale_t=scale_t,sill=sill,smooth_t=smooth_t,power2_s=power2_s,power2_t=power2_t,sep=sep,mean = mean,power_s=power_s)
+fix=c(nugget=nugget)
+
+cc = 3
+tCPU2 = proc.time()
+res2=STBEUFit((start),fix,coords,time,cc,datos,
+              type_dist,maxdist ,maxtime,0,0,
+              winc,winstp,type_subs,weighted)
+tCPU2 = proc.time()-tCPU2
+print(tCPU2)
+
+
+
+cc = 3
+tGPU1 = proc.time()
+res1=STBEUFit((start),fix,coords,time,cc,datos,
+              type_dist,maxdist ,maxtime,0,0,
+              winc,winstp,type_subs,weighted,
+              GPU =0, local = c(1,1))
+tGPU1 = proc.time()-tGPU1
+print(tGPU1)
+
+
+
+
+
+
+
+1. PELILEO: https://www.facebook.com/pelileo.gob.ec/
+2. QUERO: https://www.facebook.com/municipioquero/
+3. PATATE: https://www.facebook.com/GadPatateGobiernoMunicipio/
+4. BAÑOS: NO 
+5. CEVALLOS: NO 
+6. PILLARO: https://www.facebook.com/gadmpillaro/
+7. TISALEO: https://www.facebook.com/GADM-Tisaleo-343742026087745/
+8. AMBATO: https://www.facebook.com/MunicipioAmbato/
+9. MOCHA: https://www.facebook.com/GadMocha/
+
+
+
+
+
+double beta, *gradcor(X);
+    double *vv(X),*ww(X),*sdata(X), *grad(X), *sublagt(X);
+    double **tot(X),*mom_cond(X),**vector_mean(X);  
+
+
+ww=(double *) Calloc(*npar,double);
+    grader=(double *) Calloc(*nparc,double);
+    grad=(double *) Calloc(*npar,double);
+
+
+
+
+
+
+
+
+aux.wide <- aux.wide[1:50,]
+16425.891 /6095.695 [1] 2.694671
+
+
+aux.wide <- aux.wide[1:60,]
+12855.043 /4682.963 [1] 2.745066
+
+
+
+
+11183.595 /3603.382  63
+
+
+
+El Carchi tiene 31% de la población de Tungurahua, 
+
+
+
+
+
+
+remove.packages("GeoModels",lib = "/Library/Frameworks/R.framework/Versions/3.6/Resources/library/00LOCK-GeoModels/00new/GeoModels")
+
+
+remove.packages("GeoModels",lib = "/Library/Frameworks/R.framework/Versions/3.6/Resources/library/GeoModels")
+
+
+
+devtools::install_github("vmoprojs/GeoModels-OCL")
+library(GeoModels)
+
+
+
+
+
+No discutiré en redes sociales mi posición respecto a las medidas del gobierno de Lenin Moreno, nunca las he considerado el espacio adecuado para realizar un verdadero debate. Solo diré mi posición al respecto: 
+
+De acuerdo con las medidas en materia económica
+Rechazo tres temas en materia laboral: reducción de vacaciones a 15 días en el sector público, aporte de un día de salario al Estado y renovación de contratos ocasionales con 20% menos.
+
+
+
+No discutiré en redes sociales mi posición respecto a las medidas del gobierno de Lenin Moreno, todos tendremos nuestros argumentos al respecto y hay mejores espacios para hacerlo. Pero si diré mi posición al respecto: 
+
+-  De acuerdo con las medidas en materia económica
+-  Rechazo tres temas en materia laboral: reducción de vacaciones a 15 días en el sector público, aporte de un día de salario al Estado y renovación de contratos ocasionales con 20% menos de remuneración.
+
+
+
+
+
+-  De acuerdo con las medidas en materia económica
+-  Rechazo tres temas en materia laboral: reducción de vacaciones a 15 días en el sector público, aporte de un día de salario al Estado y renovación de contratos ocasionales con 20% menos de remuneración.
+
+THAT'S ALL I HAVE TO SAY ABOUT THAT
+
+
+-  Rechazo tres temas en materia laboral: reducción de vacaciones en el sector público, un día de salario para el Estado y renovación de contratos ocasionales con 20% menos de remuneración.
+-  De acuerdo con las medidas en materia económica.
+THAT'S ALL I HAVE TO SAY ABOUT THAT
+
+
+
+
+
+
+[6:13 p. m., 4/10/2019] Eduardo Marín: Amigos una consulta. Quiero obtener una solución eficiente al siguiente problema de tratamiento de datos en R
+- Tengo 2 dataframes de las mismas dimensiones y mismos nombres de columnas
+- Los valores de c/df son diferentes
+- Quiero reemplazar los valores de df1 con los de df2 solo si el valor de df2 es menor al de df1
+
+De momento he hecho lo siguiente: 
+- temp = which(df2<df , arr.ind=T) que devuelveuna matriz con los índices donde la condición es verdadera
+- Luego itero sobre los índices para el reemplazo :
+
+for (i in 1: nrow(temp)) {
+df1[   temp[ i ,1 ] , temp[ i , ]   ] = df[   temp[ i ,1 ] , temp[ i , ]   ]
+}
+
+Lo que cumple con la tarea pero busco una solución más eficiente que evite el loop. Alguna idea?
+[6:13 p. m., 4/10/2019] Eduardo Marín: *Todos los elementos de ambos df son numéricos
+[6:15 p. m., 4/10/2019] Eduardo Marín: Hay alguna manera de indexar dataframes directamente con una matríz lógica por ejemplo? de forma que se pueda ejecutar
+
+df1[temp] = df2[temp]???
+
+
+
+
+http://www.cmstatistics.org/CMStatistics2019/
+
+
+#ReflexionesEnPastillas
+
+Mientras los hermanos Salasakas juegan su vida defendiendo los derechos del pueblo en Quito, la Alcaldía de Pelileo pacta con los transportistas.
+
+	¿Cuánto va a costar el alza de transporte?
+
+	¿Se pacta sin presencia indígena y campesina?
+
+	¿Cómo se designan los representantes de las veedurías ciudadanas?
+
+#PelileoAnalítico
+
+
+npar: 4, nparc: 3
+
+npar: 4 (grad) nparc 3 (gradcor)
+FLAGUIS: 0 0 1 
+FLAGCOR: 0 0 0 1 1 0 1
+
+grad: [sill,scale_s,scale_t,smooth]
+
+
+Colegas, no dudo que la situación del país nos tiene a todos consternados. No obstante, no considero que este grupo sea el espacio adecuado para verter juicios de valor de la situación. En varias ocaciones se ha pedido información de vías y se ha compartido videos que espero hayan sido comprobados. Existen otros grupos para debatir las ideas y propuestas que están tejiendo en su intercambio. Por lo expuesto, si se va a compartir información, bienvenido; pero tratemos de evitar temas políticos. No porque no sean interesantes, sino que tergiversa la naturaleza de este grupo.
+
+
+
+Colegas,  no dudo que la situación del país nos tiene a todos consternados. No obstante, considero que no es el espacio para hacerlo. Desde ya le pido a los administradores tengan la gentileza de volverme a incluir cuando se dejen estos temas. Hasta pronto.
+
+
+Colegas,  no dudo que la situación del país nos tiene a todos consternados. Pero evitemos juicios de valor alejados de evidencia. Si las discusiones se tornan personales o llenas de opiniones, no dejamos de ser como aquellos personajes de los que nos queremos distinguir.
+
+"Sin datos, no es usted más que otra persona con una opinión". W. Edwards Deming
+
+
+Mis conclusiones respecto al #ParoNacional:
+
+¿Protestas violentas? SI
+¿Gente protestando de forma legítima? SI
+¿Infiltrados en protestas? SI
+¿Correa metió mano? SI
+¿La fuerza pública abusó? SI
+¿De acuerdo con las reformas laborales? NO
+¿De acuerdo con las eliminación del subsidio? SI
+
+En resumen, suscribo con Bertrand Russell: "El concepto fundamental en las ciencias sociales es el poder, en el mismo sentido en el que la energía es el concepto fundamental en la física... Las leyes de la dinámica social son leyes que solo pueden ser formuladas en términos de poder"
+
+
+
+"El concepto fundamental en las ciencias sociales es el poder, en el mismo sentido en el que la energía es el concepto fundamental en la física... Las leyes de la dinámica social son leyes que solo pueden ser formuladas en términos de poder" Bertrand Russell #ParoNacional
+
+
+Parafraseando a Oliverio Girondo...
+
+Me importa un pito que los políticos tengan los sesos como magnolias o como pasas de higo; una moral de durazno o de papel de lija. Le doy una importancia igual a cero, al hecho de que nos mientan con un aliento afrodisíaco o con un aliento insecticida. Soy perfectamente capaz de soportarles una nariz que sacaría el primer premio en una exposición de zanahorias; ¡pero eso sí! —y en esto soy irreductible— no les perdono, bajo ningún pretexto, que no sepan respetar las zonas de paz. Si no saben eso ¡pierden el tiempo los que pretendan seducirme!
+
+
+
+
+Izquierda y Derecha han cruzado la línea. No los policías ni los indígenas, sino los gobernantes y los dirigentes. A ambos les falta estrategia y negociación. Creo firmemente que la vida está en matices, en lo político, en lo económico y demás, no se trata de blancos y negros. Ricos y padres pueden pujar para hacer un mejor país. Pero, si me veo obligado a escoger un bando, escojo a la izquierda. 
+
+
+Nos reportan que no hay gas ni gasolina en Pelileo
+
+-	Ahorremos todo lo posible, hagamos uso solo de lo estrictamente necesario.
+
+-	Si es que tienen en existencia, solicitamos comedidamente a distribuidores de gas y gasolineras que, ayuden a la población expidiendo sus productos
+
+-	Si alguien sabe de algún proveedor que disponga de estos productos, comenten este post para que la población pueda acceder a ellos.
+
+
+
+void DoubleExpOCL(int *npts, int *ntime,double *coordt, double *maxtime,double *maxdist,int *cormod, double *parcor,int *flagcor,int *flagnuis,int *npar,double *nuis,double *data,int *weigthed, double *mom_cond, int *dist, double *coordx,double *coordy,double *gradcor,double  *grad, double *ww,int *local_wi, int *dev)
+
+
+
+
+
+npts
+rangex
+rangey
+xgrid
+ygrid
+
+
+scoordx
+scoordy
+data
+ww
+gradcor
+grad
+
+
+
+
+
+Jose Chugcho
+
+
+
+ES UN TEMA DE LIBERAR MEMORIA
+
+
+
+"La gente del campo no sabe cómo se vive en la ciudad, porque ellos también necesitan de la ciudad"
+
+
+-  Estaba pensando en eso que dijiste sobre el universo..."donde te lleve el universo, ahí irás" es una filosofía interesante
+
+*  Es una buena metáfora, es una filosofía muy mala. Yo fui a donde el universo decidió llevarme toda la vida. Es mejor tomar decisiones a voluntad
+
+El Camino, 2019
+
+
+
+
+
+Francisco Martín Ponce Carrión
+0998377695
+022898673
+Interoceánica e Irene Cárdenas urbanización Miravalle 3 conjunto Balcón del Valle casa 4
+
+
+Gabriel Alejandro iñiguez salas
+0998954572
+No hay convencional
+Diego Vaca y José Maria guerrero
+
+
+Luis Fernando Moreta Cruz
+0998431276
+022663001
+Serapio japerabi y el Canelo s12-99
+
+
+Víctor Roberto Morales Oñate
+0998598017
+022237108
+Toledo N23-126 y Madrid
+
+
+
+#Noticia
+
+El Alcalde de Pelileo NO se suma al pedido de derogatoria del decreto 883 según comunicado oficial de Alcaldes y Alcaldesa. De Tungurahua constan únicamente las firmas de los Alcaldes de Patate y Tisaleo, pero Pelileo no apoya la derogatoria del decreto.
+
+#PelileoAnalítico
+
+Ver comunicado:👇🏽
+
+
+Fuente: https://www.facebook.com/114220708688900/posts/2291978647579751?sfns=mo
+
+
+DEROGACIÓN no es lo mismo que REVISIÓN. Saludos
+
+
+
+
+#ParoNacional
+
+-	El diálogo se ha demorado por dificultades operativas.
+-	Se ha ratificado su voluntad de establecer el diálogo hoy.
+-	La reunión será transmitida en vivo y en directo.
+
+La ONU Ecuador sostiene que: 
+
+"Por dificultades debidas a la situación del país, la instalación de la mesa de diálogo prevista para hoy a las 3 de la tarde se demorará"
+
+#PelileoAnalítico
+
+Fuente: https://twitter.com/onuecuador/status/1183481127077646336?s=21
+
+
+Canto de mujer amazónica
+
+Casa de la Cultura Ecuatoriana. 13-10-2019, 13:40
+
+#PelileoAnalítico
+
+
+
+
+DISCURSO MARLON SANTI
+
+Casa de la Cultura Ecuatoriana (13-10-2019, 13:46), desde el lugar de los hechos.
+
+#PelileoAnalítico 
+
+
+
+
+
+
+R -d "valgrind --tool=memcheck --leak-check=full" --vanilla < TestSpace.R
+
+R -d "valgrind --tool=memcheck --leak-check=full" --vanilla < STBEU-Ex.R
+
+R -d "valgrind --tool=memcheck --leak-check=full --dysmutil=yes" --vanilla < STBEU-Ex.R
+
+
+R -d valgrind --vanilla < STBEU-Ex.R
+
+63-89
+#Noticia
+
+El gad invita a la primera Feria de la Salud. Les dejamos los datos informativos:
+
+
+Fecha: Viernes 18 de octubre de 2019
+Hora: 10h00
+Lugar: Frente a la iglesia matriz
+
+#PelileoAnalítico
+
+
+
+
+
+¿Eres arrendador o arrendatario? Este evento te interesa. Socialialización de ORDENANZA DE INQUILINATO Y REGISTRO DE PROPIEDADES RENTERAS EN EL CANTÓN SAN PEDRO DE PELILEO
+
+Fecha: jueves 17 de octubre
+Lugar: Salón de la Ciudad
+Hora: 17h00
+
+
+
+abstract IDCE
+abstract UCE
+Espoch GeoModels
+
+
+
+npar: 4 nparc: 2
+int: 16 5 1 1 1 0 1 4 0 1 2 4 1 
+dou: 2.000000 2.000000 0.500000 0.500000 -0.006402 0.000000 1.038260 0.000000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+github geomodels
+
+
+introducción al R m1
+
+
+cran view R
+
+install.packages(c("mapproj","globe",
+"fields","sphereplot",))
+
+
+
+
+
+
+
+
+
+
+LENGTH: 102 int_par[0]: 16 int_par[1]: 5
+data_buff: 640 g1: 17 g2: 6
+
+16*5 = 80
+17*6 = 102
+
+
+data_buff: 320 g1: 17 g2: 6 lenght_buff: 816 coords_buff: 64 coordt_buff: 20 
+LENGTH: 102 int_par[0]: 16 int_par[1]: 5
+
+
+LENGTH: 102 int_par[0]: 16 int_par[1]: 5
+data_buff: 640 g1: 17 g2: 6 lenght_buff: 816 coords_buff: 64 coordt_buff: 20
+
+
+
+
+
+
+nparc[0]: 2 npar[0]: 4
+
+parcor: 0.500000 0.500000 parnuis -0.006402 0.000000 1.038260 0.000000
+
+
+
+LENGTH: 102 int_par[0]: 16 int_par[1]: 5
+data_buff: 640 g1: 17 g2: 6 lenght_buff: 816 coords_buff: 128 coordt_buff: 40
+
+
+
+
+
+¿A qué se dedica hoy el equipo político del Alcalde de Pelileo?
+Estamos recolectando información.
+
+"El estereotipo de un político tradicional, ¿cuál es?"
+
+
+“La gente ya no quiere a los mismos políticos de siempre… Estamos viviendo la generación mejor preparada de todos los tiempos. La mayor parte son profesionales... Ahora ya hay ”
+
+
+"Estamos nosotros viviendo la generación mejor preparada de todos los tiempos. La mayor parte son profesionales... Ahora ya hay una preparación que respalda" Leonardo Maroto
+
+2233*50
+14000/7000
+2233*98
+
+Les dejamos una muestra de lo que fue la intervención en las #VJornadasDerechoConstitucional por parte de uno de los colaboradores de #PelileoAnalítico 
+
+
+#ReflexionesEnPastillas: QUE QUEDE CLARO!
+
+Les saluda Víctor Morales Oñate, ciudadano pelileño con número de cédula 1803590213, soy Administrador de la página Pelileo Analítico y, para los que quisieran saber un poco más de mi, les dejo mi link profesional: https://www.linkedin.com/in/vmoralesonate. De entrada les pido encarecidamente a nuestros verdaderos seguidores nos ayuden difundiendo este post.
+
+Recientemente hemos leído comentarios subidos de tono en nuestras publicaciones por parte de los seguidores acérrimos de la actual administración. Y es por esto que hemos decidido quitarles unos minutos de su tiempo esperando que este mensaje QUEDE CLARO. 
+
+Pelileo Analítico, la página, comienza el 27 de febrero de 2014. No obstante, mi compromiso con el análisis, difusión y argumentación de procederes inadecuados de la administración municipal datan de mucho antes. Por ejemplo, ya desde el 2009 (cuando tenía 24 años) empecé esta tarea con publicaciones el el Diario La Voz como (ver fotos):
+
+-  Costo del nuevo mercado: aquí analizo y critico el costo de arriendos del nuevo Mercado República de Argentina, incluso antes de que sea entregado.
+-  ¿Por qué subieron tanto las patentes?: aquí analizo el aumento indiscriminado del alza de recaudación por motivo de patentes cuando no había justificación legal para hacerlo
+-  Abastecimiento de agua potable: aquí analizo las cifras de agua potable en todo el cantón y enfatizo que se de prioridad al sector rural.
+
+Me permito citar estos ejemplos para que QUEDE CLARO que NO SE TRATA DE ALGO PERSONAL. La lucha para que las cifras y gestión municipal sea transparente empezó mucho antes, antes de que muchos de los que nos quieren desacreditar siquiera aparezcan en redes sociales e incluso mucho antes de que el actual alcalde haya tenido preocupación alguna en términos de la gestión municipal. 
+
+Actualmente han habido comentarios en Pelileo Analítico del mismo hermano del Alcalde (Daniel Maroto) y del ex Jeje Político (Santiago Villarroel). Hacen referencia a mi calvicie y cosas por el estilo. Lo cual, honestamente no me ofende en lo absoluto y los que me conocen saben que yo mismo me burlo de esto con mis amigos. Pero sí queda claro su pobre nivel de debate. Además, les recuerdo a ambos que mucho de los frutos que hoy cosechan se debe al apoyo que han tenido de otros calvitos como uno, el señor Juan DeHowitt y el señor Francisco Villena (Jr). Los comentarios de los seguidores del actual Alcalde son bienvenidos, pero apreciaríamos más nivel de argumentación y debate.
+
+Por todo lo expuesto, solo me queda decirles a nuestros seguidores que les agradecemos mucho por su apoyo y sus mensajes para que la página siga creciendo. No somos perfectos y cuando cometemos errores sabemos reconocerlos.  Recuerden que este espacio es de ustedes, un espacio donde respetamos los criterios de TODOS, incluso de los que no están de acuerdo con nosotros. Me disculpo por haberme tomado un espacio a modo personal, pero cosas como estas tienen que decirse. Me despido de todos con un fuerte abrazo y un mensaje de reflexión:
+
+"La soberbia es una discapacidad que suele afectar a pobres infelices mortales, que se encuentran de golpe con una miserable cuota de poder"
+
+
+
+#ReflexionesEnPastillas: QUE QUEDE CLARO!
+
+Les saluda Víctor Morales Oñate, ciudadano pelileño con número de cédula 1803590213, soy Administrador de la página Pelileo Analítico y, para los que quisieran saber un poco más de mi, les dejo mi link profesional: https://www.linkedin.com/in/vmoralesonate. De entrada les pido encarecidamente a nuestros verdaderos seguidores nos ayuden difundiendo este post.
+
+Recientemente hemos leído comentarios subidos de tono en nuestras publicaciones por parte de los seguidores acérrimos de la actual administración. Y es por esto que hemos decidido quitarles unos minutos de su tiempo esperando que este mensaje QUEDE CLARO. 
+
+Pelileo Analítico, la página, comienza el 27 de febrero de 2014. No obstante, mi compromiso con el análisis, difusión y argumentación de procederes inadecuados de la administración municipal datan de mucho antes. Por ejemplo, ya desde el 2009 (cuando tenía 24 años) empecé esta tarea con publicaciones el el Diario La Voz como (ver fotos):
+
+-  Costo del nuevo mercado: aquí analizo y critico el costo de arriendos del nuevo Mercado República de Argentina, incluso antes de que sea entregado.
+-  ¿Por qué subieron tanto las patentes?: aquí analizo el aumento indiscriminado del alza de recaudación por motivo de patentes cuando no había justificación legal para hacerlo
+-  Abastecimiento de agua potable: aquí analizo las cifras de agua potable en todo el cantón y enfatizo que se de prioridad al sector rural.
+
+Me permito citar estos ejemplos para que QUEDE CLARO que NO SE TRATA DE ALGO PERSONAL. La lucha para que las cifras y gestión municipal sean transparentes empezó mucho antes, antes de que muchos de los que nos quieren desacreditar siquiera aparezcan en redes sociales e incluso mucho antes de que el actual alcalde haya tenido preocupación alguna en términos de la gestión municipal. 
+
+Por todo lo expuesto, solo me queda decirles a nuestros seguidores que les agradecemos mucho por su apoyo y sus mensajes para que la página siga creciendo. Los comentarios de los seguidores del actual Alcalde son bienvenidos, pero apreciaríamos más nivel de argumentación y debate. No somos perfectos y cuando cometemos errores sabemos reconocerlos.  
+
+Recuerden que este espacio es de ustedes, un espacio donde respetamos los criterios de TODOS, incluso de los que no están de acuerdo con nosotros. Nuestro compromiso es seguir informando, analizando y poniendo sobre la mesa el acontecer en la gestión Municipal, indistintamente de quién se encuentre en el cargo. Me disculpo por haberme tomado un espacio a modo personal, pero cosas como estas tienen que decirse. Me despido de todos con un fuerte abrazo y un mensaje de reflexión:
+
+"La soberbia es una discapacidad que suele afectar a pobres infelices mortales, que se encuentran de golpe con una miserable cuota de poder" José de Martín
+
+
+
+
+
+
+
+
+
+Build Log:
+<program source>:70:13: warning: expression result unused
+            work, &work[l1], &work[l2], &work[l3], iwork, last);
+            ^~~~
+<program source>:70:19: warning: expression result unused
+            work, &work[l1], &work[l2], &work[l3], iwork, last);
+                  ^~~~~~~~~
+<program source>:70:30: warning: expression result unused
+            work, &work[l1], &work[l2], &work[l3], iwork, last);
+                             ^~~~~~~~~
+<program source>:70:41: warning: expression result unused
+            work, &work[l1], &work[l2], &work[l3], iwork, last);
+                                        ^~~~~~~~~
+<program source>:70:52: warning: expression result unused
+            work, &work[l1], &work[l2], &work[l3], iwork, last);
+                                                   ^~~~~
+<program source>:70:63: error: extraneous ')' before ';'
+            work, &work[l1], &work[l2], &work[l3], iwork, last);
+                                                              ^
+<program source>:70:59: warning: expression result unused
+            work, &work[l1], &work[l2], &work[l3], iwork, last);
+                                                          ^~~~
+<program source>:1218:12: warning: unused variable 'maxdist'
+    double maxdist      =   dou_par[1];
+           ^
+<program source>:1225:12: warning: unused variable 'nuis1'
+    double nuis1        =   dou_par[8];
+           ^
+<program source>:1207:9: warning: unused variable 'nparnuis'
+    int nparnuis        =   int_par[14];
+        ^
+<program source>:1199:9: warning: unused variable 'flagcor4'
+    int flagcor4        =   int_par[6];
+        ^
+<program source>:1238:40: warning: unused variable 'weights'
+    double lagt=0.0f,lags=0.0, rho=0.0,weights=0.0;
+                                       ^
+<program source>:1224:12: warning: unused variable 'nuis0'
+    double nuis0        =   dou_par[7];
+           ^
+<program source>:1234:9: warning: unused variable 'ls'
+    int ls = get_global_size(0);
+        ^
+<program source>:1239:12: warning: unused variable 'ww0'
+    double ww0 =0.0,ww1 =0.0,ww2 =0.0,ww3 =0.0;
+           ^
+<program source>:1200:9: warning: unused variable 'flagnuis0'
+    int flagnuis0       =   int_par[7];
+        ^
+<program source>:1239:21: warning: unused variable 'ww1'
+    double ww0 =0.0,ww1 =0.0,ww2 =0.0,ww3 =0.0;
+                    ^
+<program source>:1197:9: warning: unused variable 'flagcor2'
+    int flagcor2        =   int_par[4];
+        ^
+<program source>:1205:9: warning: unused variable 'dist'
+    int dist        =   int_par[12];
+        ^
+<program source>:1214:12: warning: unused variable 'gradcor'
+    double gradcor[nparc];
+           ^
+<program source>:1239:30: warning: unused variable 'ww2'
+    double ww0 =0.0,ww1 =0.0,ww2 =0.0,ww3 =0.0;
+                             ^
+<program source>:1239:39: warning: unused variable 'ww3'
+    double ww0 =0.0,ww1 =0.0,ww2 =0.0,ww3 =0.0;
+                                      ^
+<program source>:1204:9: warning: unused variable 'weigthed'
+    int weigthed        =   int_par[11];
+        ^
+<program source>:1213:12: warning: unused variable 'grad'
+    double grad[npar];
+           ^
+<program source>:1241:9: warning: unused variable 'gid'
+    int gid = (npts*t+l);
+        ^
+<program source>:1198:9: warning: unused variable 'flagcor3'
+    int flagcor3        =   int_par[5];
+        ^
+<program source>:1211:9: warning: unused variable 'flagcor6'
+    int flagcor6 = int_par[17];
+        ^
+<program source>:1235:9: warning: unused variable 'ms'
+    int ms = get_global_size(1);
+        ^
+<program source>:1195:9: warning: unused variable 'flagcor0'
+    int flagcor0        =   int_par[2];
+        ^
+<program source>:1202:9: warning: unused variable 'flagnuis2'
+    int flagnuis2       =   int_par[9];
+        ^
+<program source>:1196:9: warning: unused variable 'flagcor1'
+    int flagcor1        =   int_par[3];
+        ^
+<program source>:1256:9: warning: unused variable 'j'
+    int j = (ntime*gidx+gidy);
+        ^
+<program source>:1201:9: warning: unused variable 'flagnuis1'
+    int flagnuis1   =   int_par[8];
+        ^
+<program source>:1210:9: warning: unused variable 'flagcor5'
+    int flagcor5 = int_par[16];
+        ^
+<program source>:1226:12: warning: unused variable 'nuis2'
+    double nuis2        =   dou_par[9];
+           ^
+<program source>:1238:22: warning: unused variable 'lags'
+    double lagt=0.0f,lags=0.0, rho=0.0,weights=0.0;
+                     ^
+<program source>:1208:9: warning: unused variable 'cormod'
+    int cormod      =   int_par[15];
+        ^
+
+
+
+
+
+empirik
+
+
+
+
+
+
+
+Successful convergence
+OpenCL device for computation
+Parameters:
+  scale_s   scale_t      sill  smooth_t 
+0.1827547 0.9483723 0.8676074 1.9209101
+
+
+Sin importar la complejidad de tu modelo, la estadística descriptiva es la cancha donde se define si es útil o no #Statistics
+
+
+
+=================================================================
+Successful convergence
+OpenCL device for computation
+Parameters:
+  scale_s   scale_t      sill  smooth_t 
+0.2125584 0.9500139 0.8359414 1.9403083 
+
+=================================================================
+
+
+
+
+
+
+ALL PASR SIMS:
+
+=================================================================
+Successful convergence
+OpenCL device for computation
+Parameters:
+    scale_s     scale_t        sill    smooth_t    power2_s    power2_t 
+ 0.37998162  0.90735552  0.96138180  1.96705810  6.69904541  5.69014882 
+        sep        mean     power_s 
+ 0.74541969 -0.03860421  2.00437118 
+
+=================================================================
+> tGPU = proc.time()-tGPU
+> print(tGPU)
+   user  system elapsed 
+728.556  99.068 778.391 
+
+
+
+
+
+A--
+Hm0: 0.013734 Hm1: -0.410868 Hm2: nan Hm3: nan 
+
+
+
+ho: nan
+PARAMS 
+lags 0.148279,lagt 0.015000,parcor0 6.644444,parcor1 2.144444,parcor2 5.644444,parcor3 0.244444,parcor4 0.894444,parcor5 1.144444,parcor6 1.350000
+ho: nan
+PARAMS 
+lags 0.318963,lagt 0.015000,parcor0 6.644444,parcor1 2.144444,parcor2 5.644444,parcor3 0.244444,parcor4 0.894444,parcor5 1.144444,parcor6 1.350000
+ho: nan
+PARAMS 
+lags 0.148279,lagt 0.015000,parcor0 6.644444,parcor1 2.144444,parcor2 5.644444,parcor3 0.244444,parcor4 0.894444,parcor5 1.144444,parcor6 1.350000
+
+
+
+Compartimos un saludo para #PelileoAnalítico de El Jack - Daniel Machado de EnchufeTV
+
+
+Hola Carlitos, quisiera publicar este post en LinkedIn por motivo de mi primer año en el Banco (quizá en también en a SoliApp). Si tienes un chancecito, pégale un ojo porfa. Siempre es valiosa tu retroalimentación. 
+
+
+
+
+###### Lo siguiente es con la DOUBLE EXP para todo el dataset
+Successful Binary Compilation!!!=================================================================Successful convergenceOpenCL device for computationParameters:     mean   scale_s   scale_t      sill 21.070987  5.321663 24.820363 23.777688 =================================================================> tGPU1 = proc.time()-tGPU1> print(tGPU1)    user   system  elapsed  558.370  321.811 1584.234 > > > tGPU2 = proc.time()> res2=STBEUFit(start,fix,coords,time,cc,datos,+               type_dist,maxdist ,maxtime,0,0,+               winc,winstp,type_subs,weighted,+               GPU =2, local = c(1,256))Successful Binary Compilation!!!=================================================================Successful convergenceOpenCL device for computationParameters:     mean   scale_s   scale_t      sill 21.070987  5.321663 24.820363 23.777688 
+
+
+=================================================================> tGPU2 = proc.time()-tGPU2> print(tGPU2)    user   system  elapsed  717.415 3673.313 6903.496
+
+
+
+
+SEP = 0.1 
+
+los power fijarlos = 1
+media, varianza, scale_s y scale_t
+
+en cada link, poner otra columna con CODE
+
+
+
+
+
+
+Nelder
+
+=================================================================
+Convergence may have failed
+OpenCL device for computation
+Parameters:
+   scale_s    scale_t       sill   power2_s   power2_t   smooth_t        sep 
+ 0.1119618  0.7619618 31.4583696  9.6379661  5.5119618  2.0006593  1.0119618 
+
+=================================================================
+> tGPU1 = proc.time()-tGPU1
+> print(tGPU1)
+    user   system  elapsed 
+2908.185   68.258 1737.440 
+
+
+
+[1] "BFGS"
+
+=================================================================
+Successful convergence
+OpenCL device for computation
+Parameters:
+ scale_s  scale_t     sill power2_s power2_t smooth_t      sep 
+ 0.10000  0.75000 31.50619  6.50000  5.50000  2.00000  1.00000 
+
+=================================================================
+> tGPU1 = proc.time()-tGPU1
+> print(tGPU1)
+    user   system  elapsed 
+1451.223   26.596  831.000 
+
+
+
+
+
+
+
+
+
+
+
+
+
+=================================================================
+Convergence may have failed
+CPU device for computation
+Parameters:
+    scale_s     scale_t        sill        mean 
+ 0.04768689  0.86796844 31.62232675 22.08127955 
+
+=================================================================
+> tCPU2 = proc.time()-tCPU2
+> print(tCPU2)
+    user   system  elapsed 
+1925.504    3.910 1942.977 
+
+
+
+
+
+MOVISTAR: 49359542
+
+=================================================================
+Successful convergence
+OpenCL device for computation
+Parameters:
+  scale_s   scale_t      sill      mean 
+ 4.773435  1.007742 22.001806 21.063764 
+
+=================================================================
+> tGPU1 = proc.time()-tGPU1
+> print(tGPU1)
+   user  system elapsed 
+419.070 156.326 873.881 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=================================================================
+Successful convergence
+CPU device for computation
+Parameters:
+   scale_s    scale_t       sill       mean 
+ 3.8908205  0.1807273 29.5909945 20.6196143 
+
+=================================================================
+> tCPU2 = proc.time()-tCPU2
+> print(tCPU2)
+    user   system  elapsed 
+1493.885    0.625 1495.058 
+
+
+
+=================================================================
+Successful convergence
+OpenCL device for computation
+Parameters:
+   scale_s    scale_t       sill       mean 
+ 2.4243167  0.6698712 21.5888913 21.0636962 
+
+=================================================================
+> tGPU1 = proc.time()-tGPU1
+> print(tGPU1)
+   user  system elapsed 
+394.052 173.527 929.832 
+
+
+
+4282192600
+
+
+
+El pelileño, administrador de #PelileoAnalítico, Víctor Morales Oñate expondrá su investigación en Londres (Inglaterra) por motivo de un Congreso Internacional de Estadística que se dará a cabo los días 14, 15 y 16 de diciembre con el tema:
+
+"Blockwise Euclidean Likelihood for estimation of space-time covariance model using OpenCL in GPGPUs"
+
+Fuente: http://cmstatistics.org/RegistrationsV2/CFE2019/viewSubmission.php?in=504&token=s8p64121qq1prq19q5ss86qp5642qq75
+
+#PelieloAnalítico
+
+
+
+
+
+
+
+1. bajarme aplicación del metro al teléfono
+2. aplicación para buses
+3. oister card, para buses, metro y todo
+4. del aeropuerto al 
+5. museo de historia natural, británica y segunda guerra mundial
+6. Ir a un musical, el rey león (piccdilli circus)
+7. paseo en ferri
+8. meridiano de grenwich
+9. presupuesto: alimentacion USD 40 diarios.
+10. tarjeta de una semana para viajes en tren y metro (40 libras)
+11. chip celular?
+12. sacar del cajero directo
+13. Oxford,Briton
+14. Liverpool
+15. Candemtown (nightlife)
+16. aeropuerto en tren 
+
+1. Essentials of liner algebra (one-two classes)
+1.1 Formas cuadráticas (mardia)
+1.2 Descomposición espectral  (mardia)
+1.3 Inversa generalizada (mardia)
+2. Measures of Central Tendency, Dispersion and Association
+3. Graphical Display of Multivariate Data
+4. Multivariate Normal Distribution
+5. Sample Mean Vector and Sample Correlation and Related Inference Problems
+
+
+
+
+EL PRECIO NO DEBE VARIAR AL USAR LA TARJETA
+
+Aplicar un porcentaje adicional al precio de los productos o servicios cuando se cancela con tarjeta de crédito es una práctica común en algunos establecimientos que admiten este mecanismo de pago. En ciertos sitios es usual que cuando un cliente usa ‘dinero plástico’ en sus transacciones, se le advierte que se le cobrará un monto extra. 
+
+Según el negocio, al precio fijado se le suma un 4% o un 6%. Pero esto no tiene relación con los intereses que aplican, en ciertas ocasiones, las entidades financieras que emiten las tarjetas de crédito. Por eso, este recargo es considerado una práctica inapropiada. 
+
+El artículo 50 de la Ley Orgánica de Defensa del Consumidor establece que el precio para cancelar con tarjeta de crédito será el mismo que al contado. Es decir, los establecimientos que aceptan este mecanismo de pago no deben aplicar recargos. Pero esto no siempre se cumple y algunos clientes optan por aceptar las condiciones. 
+
+Pablo Pérez Narváez, consultor financiero y profesor de la Universidad San Francisco de Quito, explica que ciertos consumidores asumen este recargo, porque desconocen la norma.“Las personas tienen derecho a comprar al mismo precio con efectivo o tarjeta de crédito”. 
+
+Para respaldar esta transacción, la entidad financiera que emite la tarjeta cubre lo consumido por su cliente en determinado negocio, y a la vez cobra al local una comisión por aceptar pagos con ‘dinero plástico’. En promedio, este monto es del 6% del precio facturado, aunque este porcentaje varía. Las empresas grandes pagan una comisión menor, mientras tanto los pequeños cancelan un valor mayor. 
+
+Este esquema a veces no convence a los propietarios de los negocios, por lo que deciden trasladar esta comisión del banco, que ellos deberían cubrir, al cliente. 
+
+Esto causa que el precio difiera del que tendría si se cancela en efectivo. Por ejemplo, si cierto producto cuesta USD 100 y se paga con tarjeta de crédito más la comisión que el banco cobra a los negocios, el valor sube a USD 106. 
+
+Cuando se presentan estos casos, los tarjetahabientes deben reportar al banco emisor de la tarjeta esta situación. Otras opciones son poner una queja en la Superin­tendencia de Bancos o recurrir a la Defensoría del Pueblo. 
+
+En ciertos casos, por este tipo de reclamos los bancos emisores de las tarjetas de crédito podrían incluso retirar de los negocios los equipos que se usan para hacer estas transacciones con ‘dinero plástico’, por su uso inadecuado. 
+
+Para evitar esto, Pérez Narváez dice que los establecimientos comerciales deben considerar que aceptar pagos con tarjetas tiene también beneficios. Los dueños de negocios que admiten este mecanismo de pago reciben el dinero pocos días después de que se hizo la venta. Esto difiere si el local comercial entrega un crédito directo al cliente, porque en este segundo caso se debe esperar 15 días, un mes o más tiempo para que el consumidor liquide esa cuenta. 
+
+Según Pérez Narváez, al aceptar dinero plástico se reduce el riesgo de crédito, que implicaría pérdidas económicas. Y al recibir los recursos de manera ágil se puede contar con ese dinero para pagar a empleados, proveedores, etc. 
+
+		Las promociones 
+
+Según la Ley Orgánica de Defensa del Consumidor, toda oferta, promoción, rebaja o descuento exigible respecto de la modalidad de pago al contado, será también exigible por el consumidor que efectúa pagos mediante el uso de tarjetas de crédito. Se puede aplicar una excepción solo cuando el establecimiento comercial manifieste al cliente oportuna y adecuadamente, en una publicidad o información respectiva y de manera expresa, lo contrario.
+
+Fuente: https://www.revistalideres.ec/lideres/precio-tarjeta-credito-transacciones-negocios.html?fbclid=IwAR1w5sNWsj8OgAMFLsr17s2vZLHRMMRDODg6TZTkgZ5-KSiRPsID44WP0OI
+
+
+
+
+Estimada Comunidad,
+
+Si desean iniciarse en el mundo del software R, hace unos años hice un par de videos que considero que aún pueden ser de utilidad:
+
+
+1. Introducción, Objetos y manipulación, directorios y funciones simples:
+
+https://www.youtube.com/watch?v=fOpr4-7m_ds&t=1632s
+
+2. Indexación, gráficas y bucles: 
+
+https://www.youtube.com/watch?v=njqjlRrOHGY&t=219s
+
+Enjoy!
+
+
+
+
+
+
+Considero que se deben eliminar los puntos 2 y 3 debido a que este módulo es de introducción y por lo tanto debe recorrer la estadística clásica (quizá incluso discutiendo algo de dependecia en el tiempo). Si bien no con profundidad, si con la suficiente rigurosidad como para que queden claras las bases. 
+
+Luego introducir el tema de dependencia mediante el uso del variograma y correlograma. En estos dos últimos conceptos si con algo de profundidad y un par de aplicaciones que vayan desde el uso de lápiz y papel y el uso de alguna herramienta simple. 
+
+
+
+
+
+
+Saludos Colegas, 
+
+Debido a temas de tiempo, en esta ocasión solo puedo colaborar en el modulo 3. En este sentido, me he permitido modificar esos contenidos exclusivamente y he dejando un comentario al módulo 0. 
+
+Por mi parte eso sería todo y seguimos en contacto para definir fechas y horarios definitivos. 
+
+Un abrazo,
+VMO
+
+
+
+
+
+
+
+Este documento compila material elaborado a partir de distintas fuentes para realizar un taller de introducción a la Estadística Espacial. Este taller se desarrolla en el marco del V Encuentro de Economía celebrado del 11 al 13 de diciembre organizado por la Escuela Politécnica Nacional del Ecuador.
+
+
+
+Paul ESPOCH
+Repasar presentación Solidario
+HideRoom (CHECK)
+Examen BelCorp
+Moreno (CHECK)
+Presentación STBEU
+Presentación EPN
+FLACSO (Check)
+
+
+
+
+
+
+
+
+
+https://vmoprojs.shinyapps.io/ClusEvol/
+
+¡Misión cumplida! Una grata experiencia el ser parte de un gran congreso de Estadística, espacios para aportar y sobre todo para aprender.
+
+
+En tipoVivienda solo tengo "P" y vacío
+
+
+
+Un cordial saludo a todos nuestros seguidores. Les saluda Víctor Morales Oñate. Sabiendo que Pelileo es una tierra llena de emprendedores, hoy les traemos un consejo para su emprendimiento que puede serles de mucha utilidad.
+
+
+Una de las razones por las que suelen fracasar los emprendimientos es debido a la falta de planificación. Una forma de planificar su emprendimiento es a través del Análisis del Punto de equilibrio.
+
+
+Este análisis es útil cuando se quiere realizar un nuevo emprendimiento o cuando se quiere vender un producto nuevo. Nos sirve para responder CUÁNTOS PRODUCTOS SE DEBE VENDER PARA PAGAR LA INVERSIÓN REALIZADA. 
+
+Por ejemplo,
+
+KSsmoteKmeans
+Comparison
+
+
+
+No te caché lo de las ideas de impacto :S Pero me gustó full, mis impresiones:
+
+-  "Les pido tolerancia y paciencia si a ratos aparece mi sesgo de profesor" Así empezaré alguna intervención en el Soli (:
+
+-  Todas las moralejas súper buenas. La moraleja 2 es algo que quería conversar contigo, quizá sea buena idea invertir en fierros. La moraleja 5 me parece que debe ser muy difundida, lo "imparcial" no sé si siquiera exista. 
+
+- Cuando habla de el muestro en redes sociales, es algo que también me llama la atención (en lo teórico y sus implicaciones prácticas) cuando se dan reportes de datos con esas fuentes.
+
+- Quisiera indagar más en la frase de remate "no se puede hacer “inteligencia” con datos no estructurados de redes públicas y quien diga que puede hacerlo, vende humo." Porque significaría que las empresas que venden soluciones a datos "no estructurados", estarían vendiendo humo en alguna medida.
+
+
+
+La historia que cuenta en los minutos 7:10-8:10 es por qué a veces debemos mandarnos al carajo para ser más cercanos 
+
+
+
+Deben seguir las normas de autor de la revista politécnica: http://www.revistapolitecnica.epn.edu.ec/. De hecho, si el trabajo lo amerita, los invito a esforzarse en la elaboración de la investigación ya que podrían enviarla a la revista (indezada en LatinIndex)
+La fecha de entrega y presentación de resultados es el jueves 29 de agosto. Se debe entregar un documento escrito de máximo 10 páginas (inclyendo referencias y anexos). Además, sus trabajos serán presentados de forma oral con una duración de 10 minutos por cada intervención.
+Recuerden que también deben entregar el código de programación de un ejemplo "de juguete", el cual es parte MUY importante de la evaluación.
+
+
+
+
+library(vegan)
+library(mvnormtest)
+library(MASS)
+library(klaR)
+
+
+
+
+
+
+IAEN, maestría de gestión de riesgos
+
+
+Diario desde el 2000 estaciones climatológica
+
+
+Data Science Research Group, Escuela Superior Polit\'{e}cnica de Chimborazo,
+
+
+
+
+p 151
+1992.73
+#include <stdbool.h>
+
+
+
+K3TIGD
+victor.morales@uv.cl
+
+
+
+
+
+
+[26/1 21:48] Luly: Contenidos Mínimos:
+[26/1 21:48] Luly: 1.1 Topología de Rn. Limites y continuidad de funciones de varias variables. 1.2 Derivadas parciales, direccional es y diferenciabi lidad (parte I). 2.1 Diferenciab ilidad (parte II). Funciones compuestas (parte I). 2.2 Funciones compuestas (parte II), implícitas e inversas. 3.1 Extremos de las funciones de varias variables (parte I). 3.2 Extremos de las funciones de varias variables (parte II). 4.1 Integrales múltiples (parte I). 4.2 Integrales múltiples (parte II). 5.1 Integrales de línea. Campos escalares y vectoriales. Teorema de Green. 5.2 Integrales de superficies. 6.1 Flujo, divergencia , circulación, rotor. Teorema de Stokes. Síntesis del curso.
+
+
+
+
+
+1. De analíticos, poetas y locos, todos tenemos un poco: La analítica de datos detrás de tus decisiones
+
+2. El nacimiento de un viejo descubrimiento: La analítica de datos detrás de tus decisiones
+
+3. Estadística sin lágrimas: La analítica de datos detrás de tus decisiones
+
+4. La inteligencia de negocios no te hace inteligente: La analítica de datos detrás de tus decisiones
+
+5. Adquisición, servicio, relación y retención: 4 ideas para conocer a tu cliente
+
+6. 4 ideas para conocer a tu cliente: La analítica de datos detrás de tus decisiones
+
+7. ¿Qué es un Insight? La analítica de datos detrás de tus decisiones
+
+8. La vida es muy corta... usa analítica para hacerla corta y divertida
+
+9. La vida es muy corta... la analítica te la hará más fácil, pero seguirá siendo corta
+
+asdvasdasdfgdsfgkllkmkk
+
+
+
+
+
+
+
+
+Aplicamos al FestivalFFF para ser parte del cartel 2020. Esperamos ser seleccionados y vernos en el escenario.
+
+"Apoya a tu banda local desde la cuna hasta la sepultura" Molotov
+
+https://festivalfff.org/2020/02/06/224-proyectos-nacionales-aplicaron-al-festivalfff-2020/?fbclid=IwAR1P7IkAFP34F1pVZUVfVPPc9v1qLimWYV01_fzDPN3DRcMEPGRvJdowObc
+
+
+
+
+
+
+
+¿Eres Fan de Los QY? ¿Te gustaría tener una canción de la banda? Llena el siguiente formulario y te la enviamos. 
+
+Solo quienes hayan completado el formulario tendrán este beneficio. 
+
+#QY #Pelileo #LargaVidaAlSKA
+
+https://bit.ly/3bqcAm5
+
+
+DataTables warning: table id=DataTables_Table_1 - Requested unknown parameter '2' for row 25. For more information about this error, please see http://datatables.net/tn/4
+
+
+
+
+Brows!!!
+
+Al fin pudimos sacar un proyecto musical que tenemos con la banda Los QY, 100% pelileña! Les dejo el link de las canciones, se agradece la difusión:
+
+
+https://www.youtube.com/playlist?list=PL7wNEfB8Nxj6AQoqErcIeQvmoZfdh241S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SALUDO
+
+LES PRESENTO
+
+¿QUÉ ES EL CORNOAVIRUS?
+
+¿DONDE Y CUÁNDO SE ORIGINÓ?
+
+¿CÓMO SE EXPANDIÓ?
+
+¿CÓMO SE CONTAGIA?
+
+
+
+
+
+
+
+
+
+Hoy el @gad ha decidido "cerramos los accesos secundarios de ingreso a #Pelileo". Sin embargo, hoy en la mañana la Ministra Paula Romo indica que no se deben cercar las ciudades. Solicitamos comedidamente a las autoridades Locales que tengan más coordinación con las autoridades Nacionales. 
+
+
+
+Leo, debes estar a full con estos temas COVID19. Y nada loco, espero que las cosas salgan bien. Te mando este extracto de la María Paula Romo para que lo tengas en cuenta. No sé si es lo mejor cerrar las vías secundarias, pero al parecer no está alineado con lo que ella contempla como política Nacional (rueda de prensa de hoy en la mañana). 
+
+En otro tema, por mi parte las diferencias o coincidencias de visión que podamos tener quedan en otra cancha. Para mí siempre serás un amigo al que espero que le vaya bien. Espero que podamos conversar en algún momento con más calma de este tema. Ñeque loco!
+
+
+
+
+Nuestra única arma contra el #Coronavirus es 
+
+¡QUEDARNOS EN CASA!
+
+#PelileñoQuédateEnCasa
+
+#PelileoAnalítico
+
+
+
+
+Buenas tardes Diana, reciba un cordial saludo de mi parte.
+
+Soy Víctor Morales Oñate, pelileño y administrador de la página de Facebook Pelileo Analítico. Vimos su publicación respecto a la iniciativa de fabricar vestimenta para médicos. En primer lugar aplaudimos la iniciativa. En segundo lugar, quisiéramos ponernos en contacto con la persona que está coordinando esta iniciativa para hacerle una breve entrevista digital. Si tuviera la gentileza de indicarnos quién es la persona le quedaríamos muy agradecidos.
+
+Un cordial saludo,
+Víctor
+
+
+
+
+Amigos, Tungurahua es una provincia estrechamente relacionada con las provincias de la Costa. Nuestras frutas llegan a sus plazas, visten nuestros jeans, zapatos, chompas de cuero, entre otros. Nosotros también consumimos sus productos. No se trata de si iban a aparecer casos confirmados de COVID19 en nuestra tierra, sino de cuándo. Hoy tenemos X casos y está en nuestras manos que no se propaguen. Los regionalismos no tienen sentido, pues si la región costa ha sido nuestro aliado estrecho en el comercio, hoy todo el Ecuador debe estar entrelazado desde el lado humano.
+
+
+
+Compartimos con nuestros seguidores la investigación de XXX. Pueden leer sus contribuciones "LO QUE NO TE DICEN DEL CORONAVIRUS" en https://es.scribd.com/document/451936654/COVID-19-Cap-I?fbclid=IwAR2erBIHKJrF4TKoP0-kti5UZz0RO6D0TnKdyBKhGyaJLQ9OVa-6fj8kdSA
+
+
+Lamentamos no haber respondido su inquietud en el tiempo adecuado. Esperamos que haya podido solventar su duda.
+
+
+
+
+
+#URGENTE | Desde mañana el #ToqueDeQueda se amplía en Ecuador desde las 14:00 hasta las 05:00. El presidente Lenín Moreno anuncia que "¡quien incumpla será sancionado! Primera vez: USD 100. Segunda vez: un salario básico. Tercera: prisión".
+
+Fuente: El Comercio
+
+
+
+
+
+
+
+Nuestra única arma contra el #Coronavirus es 
+
+¡QUEDARNOS EN CASA!
+
+Un mesaje del médico pelileño Israel Rodríguez Alvarado
+
+#PelileñoQuédateEnCasa
+
+#PelileoAnalítico
+
+
+
+¿Cuán relevante es el papel de quien esté al frente de la Secretaría Nacional de Riesgos? Creería que bastante. Me metí a ver el perfil de la persona y me encontré con esto: 
+
+
+No sé si es el mejor perfil para estar al frente de ese cargo, pero me llama la atención que si se la busca en la SENESCYT no aparece ni el título de pregrado. 
+
+
+
+1803590213001
+
+
+
+#ComprasPúblicasPelileo
+
+
+Compartimos las compras públicas realizadas en febrero 2020. Cosas que llaman la atención
+
+-	El servicio de guardiana del Municipio ahora es PRIVADO. 
+-	El estudio de planes viales cuesta USD 53.2 mil.
+-	Están en proceso de calificación, pero el costo de la segunda fase del Municipio cuesta USD 803.3 mil.
+
+
+#PelileoAnalítico
+
+
+
+
+
+$803,344.34
+
+
+Colegas, estoy buscando NBI por parroquias en Tungurahua del CPV 2010. Busqué en el SIISE pero parece que no está funcionando, ¿saben dónde puedo conseguirlo?
+
+
+
+Por qué ahora se aplauden los abusos 
+
+La guerra opera por una psicología diferente y más violenta. El miedo hace que los hombres deseen un líder, y un general exitoso despierta la admiración apasionada que es el anverso del miedo. Como la victoria parece, en este momento, la única cosa de importancia real, el exitoso general persuade fácilmente a su país para que le confíe el poder supremo. Mientras la crisis continúe, se lo considera indispensable, y cuando termina puede que el general se haya vuelto muy difícil de eliminar. (Russel 1938, Power: A new social Analysis, pp. 162)
+
+
+En toque de queda suele haber abuso de las fuerzas del orden. Unos lo repudian y otros lo aplauden. Russell nos explica en este texto el por qué lo hacen:
+
+* Guerra: #Covid19ec
+* General: Fuerzas del orden
+
+
+
+
+usuario: sffo1971
+clave: Stalin19711971
+1802422871
+53674
+
+EMAPAD EP
+
+180115838 SUPA
+1014206919 cuenta tali
+1442.94
+
+
++proj=utm +zone=17 +south +datum=WGS84 +units=m +no_defs
++proj=utm +zone=17 +south +datum=WGS84 +units=m +no_defs
++proj=utm +zone=17 +south +datum=WGS84 +units=m +no_defs
+
+
+11500
+1725000
+1.725
+
+Agricultura y ganadería (40%)
+Manufactura (25%)
+Comercio (9%)
+
+
+1. Windows paralilzacion
+2. Nueva version del paquete
+3. 
+
+
+
+
+
+
+
+##################################################################
+Maximum Composite-Likelihood Fitting of TwoPieceBimodal Random Fields
+
+Setting: Marginal Composite-Likelihood 
+
+Model: TwoPieceBimodal 
+
+Type of the likelihood objects: Pairwise 
+
+Covariance model: Exp_Exp 
+
+Optimizer: Nelder-Mead 
+
+Number of spatial coordinates: 100 
+Number of dependent temporal realisations: 10 
+Type of the random field: univariate 
+Number of estimated parameters: 7 
+
+Type of convergence: Successful 
+Maximum log-Composite-Likelihood value: -3856.59
+
+Estimated parameters:
+      df      mean     mean1   scale_s   scale_t      sill      skew  
+ 0.21008   0.49986  -0.01093   0.06275   0.79715   1.13296   0.26092  
+
+##################################################################
+
+
+
+
+
+##################################################################
+Maximum Composite-Likelihood Fitting of TwoPieceBimodal Random Fields
+
+Setting: Marginal Composite-Likelihood 
+
+Model: TwoPieceBimodal 
+
+Type of the likelihood objects: Pairwise 
+
+Covariance model: Exp_Exp 
+
+Optimizer: Nelder-Mead 
+
+Number of spatial coordinates: 100 
+Number of dependent temporal realisations: 10 
+Type of the random field: univariate 
+Number of estimated parameters: 7 
+
+Type of convergence: Successful 
+Maximum log-Composite-Likelihood value: -4314.40
+
+Estimated parameters:
+      df      mean     mean1   scale_s   scale_t      sill      skew  
+ 0.20382   0.49638  -0.02237   0.07040   0.82556   1.01690   0.24171  
+
+##################################################################
+
+##################################################################
+Maximum Composite-Likelihood Fitting of TwoPieceBimodal Random Fields
+
+Setting: Marginal Composite-Likelihood 
+
+Model: TwoPieceBimodal 
+
+Type of the likelihood objects: Pairwise 
+
+Covariance model: Exp_Exp 
+
+Optimizer: Nelder-Mead 
+
+Number of spatial coordinates: 100 
+Number of dependent temporal realisations: 10 
+Type of the random field: univariate 
+Number of estimated parameters: 7 
+
+Type of convergence: Successful 
+Maximum log-Composite-Likelihood value: -4230.27
+
+Estimated parameters:
+      df      mean     mean1   scale_s   scale_t      sill      skew  
+ 0.19233   0.50629  -0.25446   0.07716   0.82221   0.95523   0.24847  
+
+##################################################################
+
+
+
+
+
+Buen día colegas,
+
+Tuve la oportunidad de ser el capacitador del módulo "Técnicas bayesianas y no paramétricas" en el último programa de Data Science de la SEE en Quito. Quería comentarles que estoy usando elementos de lo que aprendimos en ese módulo para entender los datos de COVID19Ec. 
+
+Hice un reporte que recoge el análisis: https://rpubs.com/VMO/Covid19Ec
+
+Para estimar los parámetros de los modelos usé Mínimos Cuadrados No Lineales (nls). Les dejo el código:
+
+# Creo la función a ser estimada:
+grow_logistic <- function(x, y0,mumax,K) {
+((K * y0) / (y0 + (K - y0) * exp(-mumax * x))) 
+}
+# Pruebo que la función ande bien:
+grow_logistic(1,y0 = 1, mumax = 0.1, K = 10)
+# Guardo los datos en un df: 
+# (Pi: son los datos nacionales de sintomas, 
+# time: es un vector de 1:length(Pi))
+df = data.frame( Pi=Pi,x=time)
+m.sinexp <- nls(Pi~((K * y0) / (y0 + (K - y0) * exp(-mumax * x))), data = df, 
+                start = list(y0 = 1, mumax = 0.22, K = 1000))
+(m.sinexp)
+plot(time,Pi)
+lines(time, predict(m.sinexp, list(x = time)), col = "blue")
+
+
+
+
+
+Saludos colegas,
+
+Quería comentarles que estoy usando R para tratar de entender los datos de COVID19Ec. Hice un reporte que recoge el análisis (https://rpubs.com/VMO/Covid19Ec). Espero que los motive a seguir aprendiendo la herramienta y a adentrarse a conocer el mundo desde la perspectiva de los datos. 
+
+Para estimar los parámetros de los modelos usé Mínimos Cuadrados No Lineales (nls). Les dejo el código:
+
+# Creo la función a ser estimada:
+grow_logistic <- function(x, y0,mumax,K) {
+((K * y0) / (y0 + (K - y0) * exp(-mumax * x))) 
+}
+# Pruebo que la función ande bien:
+grow_logistic(1,y0 = 1, mumax = 0.1, K = 10)
+# Guardo los datos en un df: 
+# (Pi: son los datos nacionales de sintomas, 
+# time: es un vector de 1:length(Pi))
+df = data.frame( Pi=Pi,x=time)
+m.sinexp <- nls(Pi~((K * y0) / (y0 + (K - y0) * exp(-mumax * x))), data = df, 
+                start = list(y0 = 1, mumax = 0.22, K = 1000))
+(m.sinexp)
+plot(time,Pi)
+lines(time, predict(m.sinexp, list(x = time)), col = "blue")
+
+
+
+
+Cynthia supera el COVID19 porque nunca lo tuvo y nunca salió de casa. Se como Cynthia
+
+Hay políticos que superan el COVID19 porque nunca lo tuvieron y nunca salieron de casa. Sé como ellos.
+
+
+
+
+
+
+
+https://ourworldindata.org/coronavirus-data
+
+
+
+
+
+
+
+Saludos Amigos,
+
+Hemos visto que hay grupos de WhatsApp en Pelileo de compra y venta de productos que están dando resultados para consumidores y vendedores. Hoy más que nunca debemos usar la tecnología para continuar negocios y emprender.
+
+Existe una herramienta gratuita en Facebook donde también pueden comprar y vender productos y servicios para que lleguen a más gente.
+
+Les dejamos un video tutorial para usar la herramienta.
+
+#PelileoAnalítico
+
+#PelileñoQuédateEnCasa
+
+https://youtu.be/08qzGoyUMw4
+
+
+
+Fabian Marotto Los COE locales también tienen atribuciones que podrían usar mejor. Pichincha, por ejemplo, publica sus datos por cada parroquia. Esto no está pasando en Tungurahua. También se debe publicar de los casos con sospecha por parroquia o barrio. Y muchas cosas más donde los datos pueden ayudar a las autoridades y a la ciudadanía. Le dejo el respaldo de la publicación de Pichincha donde se da información por parroquias: https://twitter.com/PichinchaGob/status/1249011879239979012 
+
+
+
+
+
+
+
+
+
+¿El valor de la VERDAD en la crisis del Coronavirus?
+¿Por qué es importante transparentar las cifras y localizar los casos?
+
+Mira el video para ver la respuesta 
+
+
+Gracias por su comentario. Nos permitimos discrepar. No es lo mismo que sea 1 o 100, para nada. En primer lugar, publicar los datos a nivel de parroquia o barrio no viola ninguna ley. Que llegue a nivel de nombres y demás es otro tema, pero que se sepan los datos a nivel de barrio si es posible. Hay imprudencia por parte de la ciudadanía por no cumplir las recomendaciones de las autoridades, pero al mismo tiempo hay impudencia al no usar los datos de forma eficiente para tomar decisiones más acertadas.  En segundo lugar, le invitamos a ver este video donde se explica la IMPORTANCIA de tener datos localizados y de la transparencia. 
+
+
+Gracias por su comentario. Nos permitimos discrepar. No es lo mismo que sea 1 o 100, para nada. Publicar los datos georeferenciados por parroquia o barrio no viola la ley. No estamos solicitando nombres de ninguna persona infectada, eso es necesario aclararlo. Saber los datos a nivel de barrio si es posible. Hay personas imprudentes por no cumplir las recomendaciones, pero también hay impudencia al no usar los datos de forma eficiente para tomar decisiones más acertadas y transparentar las cifras. Le invitamos a ver este video donde se explica la importancia de tener datos localizados y su transparencia. 
+
+
+
+Gracias por su comentario. Nos permitimos discrepar. No es lo mismo que sea 1 o 100, para nada. Publicar los datos georeferenciados por parroquia o barrio no viola la ley. No estamos solicitando nombres de ninguna persona infectada, eso es necesario aclararlo. Saber los datos a nivel de barrio si es posible. Hay personas imprudentes por no cumplir las recomendaciones, pero también hay impudencia al no usar los datos de forma eficiente para tomar decisiones más acertadas transparentando las cifras. Le invitamos a ver este video donde se explica la importancia de tener datos localizados y transparentes.
+
+https://www.facebook.com/pelileoanalitico/videos/3725121634228143/?eid=ARAtzFSDt3rS148ce74BD4R6q34lxu7WaBFCKb3Mo2y2rZ9zDz_qg39YM39fiBqFVn6tOzw_7p42uMcz
+
+
+
+
+Gracias por su comentario. Nos permitimos discrepar. Publicar los datos georeferenciados por parroquia o barrio no viola la ley. No estamos solicitando nombres de ninguna persona infectada, eso es necesario aclararlo. Saber los datos a nivel de barrio si es posible.
+
+
+
+1. Feria
+2. Mascarillas
+3. Se solicitó a Min de Salud la localización
+
+
+
+Saludos desde el medio Pelileo Analítico. Tenemos unas preguntas
+
+1. ¿Se ha planteado en el GAD darles un estipendio económico a los hogares en condición de pobreza?
+2. ¿El virus en Pelileo ya es comunitario?
+3. No no ser así, ¿se ha planteado la opción de agrupar a todas las personas de cerco epidemiológico en un solo lugar?
+
+
+
+Nos guían, nos ayudan, nos inspiran, nos enseñan... FELIZ DÍA DEL MAESTRO
+
+
+
+
+
+
+
+Tungurahua tiene casi 600 mil habitantes, 
+
+1. cuántas pruebas creen que se han hecho? 
+2. cuántas pruebas creen que se necesita para saber cómo mismo está la huevada?
+
+
+mi estimación es que se necesitan 2 cosas CLAVE:
+
+1. 2000 pruebas
+2. TIENEN que ser aleatorias
+
+Y ahí si ya se sabría que onda
+
+
+
+Personal del servicio municipal de Agua Potable y Alcantarillado, trabajan para normalizar la dotación del líquido vital en la parte alta del cantón.
+
+#QuédateEnCasa
+
+
+Buen día autoridades @mariapaularomo @Lenin @DrJuanCZevallos. Se ofrecieron 1400 pruebas diarias, pero estos son los datos diarios de pruebas. ¿Cuándo contaremos con esas 1400 pruebas?
+
+
+
+
+
+
+En línea con los demás colegas que lo han hecho, me presento. Mi nombre es Víctor Morales Oñate y me dedico a Analítica de Datos. Les dejo unos links de contacto por si ven algún tema en el que podamos colaborar, a las órdenes.
+
+https://www.linkedin.com/in/vmoralesonate/
+https://sites.google.com/site/moralesonatevictor/
+https://www.researchgate.net/profile/Victor_Morales-Onate
+https://github.com/vmoprojs
+ 
+
+
+
+
+
+Colegas, los invitamos a formar parte de la comunidad *Open Data Science Latinoamérica - Ecuador*
+
+Nuestros Objetivos
+Conectar a distintos referentes, tanto individuales como organizacionales, y comunidades para trabajar en conjunto por el bien social.
+Crear una comunidad Latinoamericana de intercambio de conocimientos.
+Nuestra Misión
+Humanizar y Democratizar la transferencia de conocimientos en Ciencia de Datos y áreas afines, creando una comunidad que genere espacios colaborativos, intercambio de ideas y aprendizaje contribuyendo especialmente en proyectos de bien social.
+
+Nuestra Visión
+Crear una red de trabajo que sea fuente de inspiración y respaldo para todo aquel que quiera crear focos de intercambio en la región. Colaborando con la sociedad promoviendo proyectos que la beneficien. Acompañar a la maduración de la disciplina de la Ciencia de Datos, consolidando a Latinoamérica como un referente.
+
+Les dejamos el enlace de nuestro grupo en *WhatsApp*:
+
+https://chat.whatsapp.com/JEGBBgOA1aTLgO3GzNXKvh
+
+Y nuestra *página web*:
+
+https://www.odsla.org/
+
+¡Los esperamos!
+
+
+
+
+
+11847
+
+
+
+> CPUtime1;GPUtime1;CPUtime;GPUtime
+   user  system elapsed 
+169.565   0.197 169.890 
+   user  system elapsed 
+187.596   1.105  28.980 
+   user  system elapsed 
+ 23.167   1.832  25.122 
+   user  system elapsed 
+ 44.120  16.828  18.722 
+
+
+
+
+coordt=seq(0,5,0.1)#1
+coordx_dyn=list()
+
+maxN=150#130
+> CPUtime1;GPUtime1;CPUtime;GPUtime
+   user  system elapsed 
+ 85.384   0.230  85.875 
+   user  system elapsed 
+100.987   3.045  19.591 
+   user  system elapsed 
+ 39.759   2.414  42.343 
+   user  system elapsed 
+ 84.644  36.278  28.489 
+
+
+> CPUtime1;GPUtime1;CPUtime;GPUtime
+   user  system elapsed 
+ 43.017   0.029  43.056 
+   user  system elapsed 
+ 35.589   0.774   9.503 
+   user  system elapsed 
+ 21.640   1.162  22.810 
+   user  system elapsed 
+ 46.696  19.115  15.465
+
+
+
+
+
+
+
+Los números de COVID-19 de los que se dispone, sin ser falsos, tampoco se ajustan a la realidad. ¿Por qué? Esta no es una teoría de conspiración ni pretendemos ser alarmistas, lo que verán aquí son simples matemáticas.
+
+
+Tasa de Letalidad = Fallecidos / Infectados
+
+La tasa de letalidad varía de país en país. Fundamentalmente por la pirámide poblacional y por la capacidad del sistema sanitario. Por ejemplo, si tenemos un país con 1000 infectados, los países con peor sistema de salud y con población más envejecida será más afectada. Aunque dos países tengan el mismo número de infectados, el número de fallecidos será diferente. La letalidad en los países está entre el 2% y 4%. Si se sale mucho de esos parámetros, hay que preguntarse ¿por qué?
+
+Una letalidad anormalmente alta por COVID-19 indica muy probablemente que el número de contagiados reportado es MUY superior al reportado.
+
+Por ejemplo, si un país reporta 4000 infectados y mueren 400, se tiene una letalidad de 10% HAY QUE DUDAR. Esto porque seguramente esto indica que el número de contagiados sea mucho mayor que el anunciado. En este ejemplo unos 13000 infectados, y no 4000.
+
+¿Esto quiere decir que el Gobierno miente? Pues puede ser, pero no necesariamente. Porque si por falta de tests el número de contagios es bajo, en este caso las cifras oficiales NO SON FALSAS, pero están LEJOS DE LA REALIDAD.
+
+No necesariamente nos mienten, pero como las personas que fallecen no tienen necesariamente una prueba con resultado de COVID-19, no se registra su muerte por esta causa.
+
+Veamos las cifras para Ecuador, Tungurahua y Pelileo
+
+
+
+
+
+
+OCL npairs: 1785105
+
+webshot::install_phantomjs()
+
+
+
+
+Sin argumentar (porque de ser así se haría eterno). Sería chévere si responden estas preguntas (opciones de respuesta: SI, NO, NPI): 
+
+1. ¿Eliminar subsidios de gasolina y diesel?
+2. ¿Eliminar subsidios únicamente de gasolina?
+3. ¿No eliminar subsidios?
+
+
+
+
+
+1. ARAUJO REYES ADRIANA PAULINA
+2. CARDENAS PAREDES WILMER HOLGUER
+3. FLORES MAZON JULIO ALBERTO
+4. MASAQUIZA MASAQUIZA ELENA
+5. MASAQUIZA MASAQUIZA ROBERTO GUILLERMO
+6. MORALES CISNEROS CARLOS WILMAN
+7. PICO RODRIGUEZ MAYRA PAOLA
+
+12.32
+
+
+Este es el instituto en el trabaja el autor: Baruj Barzel
+
+https://www.barzellab.com/
+
+Aquí está un resumen del trabajo:
+
+https://www.barzellab.com/copy-of-commentary
+
+
+Aquí está el trabajo sometido a un repositorio mundial donde pueden tener feedback de toda la comunidad científica:
+
+https://www.researchgate.net/publication/340452294_An_alternating_lock-down_strategy_for_sustainable_mitigation_of_COVID-19
+
+
+Aquí está todo el código de programación que usó en el paper (Objective-C):
+
+https://github.com/drormeidan/ALDCOVID19
+
+Otro paper publicado el 15 de abril "Evaluating COVID-19 Lockdown Policies For India: A Preliminary Modeling Assessment for Individual States", se basa en el trabajo de Baruj Barzel y su equipo donde tienen estos resultados para India:
+
+
+
+Results: After the initial lockdown, our simulations demonstrate that even policies that enforce physical distancing while otherwise returning to normal activity could lead to widespread outbreaks in both states. However, "middle ground" policies that alternate weekly between total lockdown and physical distancing may lead to much lower rates of infection while simultaneously permitting some return to normalcy.
+
+
+Y este es su argumento final en el paper original (Barzel):
+
+
+
+
+
+Testimonio COVID19 desde Korea del Sur
+
+El pelileño y colaborador de Pelileo Analítico, @AlfredoOquendoOñate, nos da sus testimonio desde Daegu (Korea del Sur)sobre cómo son los días después de la tormenta COVID19
+
+#PelileñoQuédateEnCasa
+#PelileoAnalítico
+
+ALFREDO OQUENDO OÑATE
+TESTIMONIO DE COVID19 DESDE LA CIUDAD DE DAEGU EN KOREA DEL SUR
+
+
+1. Pruebas masivas
+2. Geolocalización
+3. Verdad en las cidras, (influencia de la epidemia anterior)
+4. Medidas generales
+
+
+
+
+
+Alcalde
+Jefe Político
+Cruz Roja
+Cuerpo de Bomberos
+Director Hospital de Pelileo
+Jefe de la Policía
+Defensa Civil
+
+
+
+
+
+
+
+
+
+Víctor Morales Oñate, administrador de Pelileo Analítico, en base a sus credenciales profesionales y académicas ofrece en carta abierta al COE Municipal sus servicios 
+profesionales de manera gratuita para colaborar en la toma de decisiones respecto a la semaforización de San Pedro de Pelileo.
+
+Invitamos a más pelileñas y pelileños a sumarse a esta iniciativa. 
+
+
+Víctor Morales Oñate, administrador de Pelileo Analítico, en base a sus credenciales profesionales y académicas ofrece sus servicios 
+profesionales de manera gratuita para integrar el grupo de asesoría técnica y científica del COE Municipal de San Pedro de Pelileo.
+
+Invitamos a más pelileñas y pelileños a sumarse a esta iniciativa.
+
+
+
+#PelileñoQuédateEnCasa
+
+#PelileoAnalítico
+
+
+
+
+Buenas noches Dr. Mi propuesta está motivada primordialmente por la crisis que atravesamos. Sin perjuicio de aquello, siempre estoy dispuesto a colaborar. Considero que hoy más que nunca se debe orientar todos los esfuerzos de forma coordinada. Con los datos que cuenta el COE se tendría mejores resultados trabajando hombro a hombro en lugar de propuestas aisladas
+
+
+
+
+En virtud de las personas que nos han escrito indicando que desean colaborar en la asesoría técnica y científica del COE Municipal de San Pedro de Pelileo, ponemos a disposición un formulario para registrar sus datos. Nos comprometemos enviar esta información de manera oficial al COE Municipal de San Pedro de Pelileo tal que sean ellos quienes evalúen la ayuda que requieran pertinente. 
+
+https://bit.ly/2SgyW1y
+
+https://docs.google.com/forms/d/e/1FAIpQLSfeR42T4fZ68OgrKUnwE06qicpaD0aRgM2cxj4DJC6IG6gKXQ/viewform?usp=sf_link
+
+https://bit.ly/2SgyW1y
+
+
+
+
+
+
+"Para cualquiera que prefiera la indexación basada en uno, son las mismas personas que arruinaron el calendario a partir del año uno, al llamar a 1900s el siglo XX argumentando que el año 2001 debería ser el comienzo del próximo milenio. Haven ¿Has hecho suficiente daño?" Guido van Rossum [Creador de Python]
+
+
+
+"To anyone who prefers one-based indexing, you're the same people who screwed up the calendar starting at year one, in calling the 1900s the 20th century in arguing that the year 2001 ought to be the start of the next millennium. Haven't you done enough damage?" Guido van Rossum [Creador de Python]
+
+
+
+
+A. Ayuda para pagar (explícitamente porque quiere diferir) 
+B. Quiero pagar
+C. ¿Dónde pago?
+D. Otro
+
+Hay personas que están publicando cosas como "no tengo para pagar", "no hay ingresos".... a ellos les ponemos en diferir
+
+#PreguntasRetro
+
+Para quitar un poco el estrés del encierro en casa, despejemos dudas colectivas para ilustrarnos todos en Pelileo. Vamos con la primera pregunta de este segmento:
+
+¿Quién fue el primer confeccionista de prendas de vestir para venta al por mayor en Pelileo?
+
+
+Hola chicos, 
+
+Tranki, nos vemos el martes. De todos modos me permito recordarles las prioridades:
+
+Francis: Analytics de Twitter
+Luis: Modelo Olla
+Gabriel: Indicadores de: empleo, pobreza y financiero ENEMDU
+
+
+
+Parentesis
+Exponenciación
+Multiplicación & División
+Suma & Resta
+
+Comparación (x==5)
+NOT (!x)
+AND/OR (x and y)
+
+
+¿Quieren conversar de las cifras COVID-19? 50 likes y nos conectamos en vivo, 100 likes y nos conectamos cada semana a comentar las cifras semanales
+
+
+
+¿Quieren conversar sobre datos y cifras COVID-19? 50 likes y nos conectamos en vivo, 100 likes y nos conectamos cada semana a comentar las cifras semanales
+
+
+1. pescaditos
+2. El rube jhonie rojo
+3. Mama bola
+4. La sangre de pichon @Chino LL 
+5. El purete del dr @Pedro Carrasco 
+6. La mama del blu blu
+
+Sin con la educación superior que tenemos ya votamos por los que ahora nos representan, con menos presupuesto 
+
+
+Se pide distanciamiento, educación por parte de la ciudadanía, civismo y consciencia pero al mismo tiempo recortan el presupuesto para las Universidades, "Esta es mi tierra linda el Ecuador, tiene de todo..." #NOalRecorte
+
+filtro = p28 >= 6500 & pe28 <= 9900
+
+
+
+
+
+
+
+Aquí está el trabajo sometido a un repositorio mundial donde pueden tener feedback de toda la comunidad científica:
+
+https://www.researchgate.net/publication/340452294_An_alternating_lock-down_strategy_for_sustainable_mitigation_of_COVID-19
+
+
+Aquí está todo el código de programación que usó en el paper (Objective-C):
+
+https://github.com/drormeidan/ALDCOVID19
+
+Otro paper publicado el 15 de abril "Evaluating COVID-19 Lockdown Policies For India: A Preliminary Modeling Assessment for Individual States", se basa en el trabajo de Baruj Barzel y su equipo donde tienen estos resultados para India:
+
+
+
+Results: After the initial lockdown, our simulations demonstrate that even policies that enforce physical distancing while otherwise returning to normal activity could lead to widespread outbreaks in both states. However, "middle ground" policies that alternate weekly between total lockdown and physical distancing may lead to much lower rates of infection while simultaneously permitting some return to normalcy.
+
+
+
+En este link:
+https://covid19.healthdata.org/united-states-of-america
+
+se presenta uno de los mejores visores para el tema COVID19, respaldan sus hallazgos en este pre-print:
+
+https://www.medrxiv.org/content/10.1101/2020.03.27.20043752v1.full.pdf
+
+Este otro proyecto: https://www.barzellab.com/
+
+Publica un artículo muy bueno de COVID19:
+
+https://www.researchgate.net/publication/340452294_An_alternating_lock-down_strategy_for_sustainable_mitigation_of_COVID-19
+
+
+
+Obras programadas VS programación ante COVID19
+	Las obras en proceso y en proceso de adjudicación van a continuar
+De los 18 contagiados
+	Ninguna se atiende en Pelileo
+	Regional atiende a los positivos
+Coordinación de ayudas:
+	1893 ayudas humanitarias
+	Hay un listado de los beneficiarios
+	Se pueden registrar con el número municipal & Facebook
+Se va a seguir dando información de COVID19
+
+"No depende de los casos ni de la ubicación" 22:00 min
+
+Pruebas: 1000 pruebas rápidas, se dispondrán a al MSP, llegan aproximadamente la próxima semana (25:00)
+	Las pruebas son para personas con síntomas y que estén en el cerco
+Presupuesto: Feb-Mayo 2.1 millones pendientes y saldo pendiente de 700mil, es 2.8 millones de dólares.
+
+Evitemos acciones que no estén debidamente fundamentadas
+Evitemos la sobreinformación
+
+3030063104
+
+
+Hoy, 4 provincias registran menos casos confirmados que ayer:
+
+Bolívar, Loja, Santo Domingo de los Tsáchilas y Sucumbíos
+
+¿Alguien sabe el motivo?
+
+¿Por qué?
+
+
+A nivel nacional han ocurrido hechos despreciables respecto a las compras realizadas en los casos X y Y. Cuando hicimos la consulta, el alcalde Maroto nos respondió lo siguiente:
+
+"¿Cuál es la modalidad de contratación para la fumigación en Pelileo?
+
+La ejecución del proceso de desinfección en nuestro cantón se realiza mediante la
+modalidad de ínfima cuantía, cuya documentación la puede solicitar una vez culminada
+la Emergencia Sanitaria mediante solicitud dirigida al Sr. Alcalde Ing. Leonardo Maroto."
+
+
+No obstante, los casos de corrupción a nivel nacional exigen que los datos de compras durante la emergencia se transparenten pronto, no cuando esta termine. 
+
+
+
+
+#CuriosidadesPA
+
+
+Dado que se trata de un método no supervisado, el enfoque de simulación para la validación es interesante. No obstante, al no contrastarse los resultados con otros métodos queda la duda de su efectividad. Se recomienda fuertemente que se realice un análisis de detección de outliers más "clásico" y contrastar los resultados de autoencoder con este enfoque. Puede realizarse una breve detección de outliers mediante la técnica de caja y bigotes para luego contrastar los resultados en una matriz de confusión.
+
+
+
+
+
+#ReporteroCiudadanoPA
+
+Un reportero ciudadano nos envía esta imagen de la situación en estos momentos en #Pelileo
+
+#PelileñoQuédateEnCasa
+
+#PelileoAnalítico
+
+
+
+
+
+people = ['Dr. Christopher Brooks', 'Dr. Kevyn Collins-Thompson', 'Dr. VG Vinod Vydiswaran', 'Dr. Daniel Romero']
+
+def split_title_and_name(person):
+    aux = person.split()
+    return aux[0]+aux[1]#Your answer here
+
+split_title_and_name('Dr. Christopher Brooks')
+
+
+
+
+
+
+#PreguntasRetroPA
+
+Para quitar un poco el estrés del encierro en casa, despejemos dudas colectivas para ilustrarnos todos en Pelileo. Vamos con la primera pregunta de este segmento:
+¿Quién fue el primer confeccionista de prendas de vestir para venta al por mayor en Pelileo?
+
+#PelileñoQuédateEnCasa
+#PelileoAnalítico
+
+
+
+
+#EncuestasPA
+
+Hoy se cumple un año de la gestión de Leonardo Maroto como alcalde de San Pedro de #Pelileo. ¿Cómo calificas su gestión?
+
+#PelileñoQuédateEnCasa
+
+#PelileoAnalítico
+
+
+
+
+PLACA TBH7094
+
+Al verte tanta gente que dice ser experta en full cosas no se si sentirme idiota o pensar que mienten. 
+
+
+
+
+
+Nicole Velasteguí
+
+
+Nos parece apropiado que el señor Alcalde Leonardo Maroto se haya pronunciado respecto a una medida Nacional
+
+QUE LOS PROPIETARIOS DE TERRENOS Y/O VIVIENDAS PUEDAN DIVIDIR SUS PROPIEDADES DE ACUERDO A LA NECESIDAD DE LOS PROPIETARIOS TANTO EN EL AREA URBANA COMO EN LA RURAL.
+BAJAR AL MENOS EL 50% DEL COSTO DE ARRIENDOS
+BAJAR AL MENOS EL 50% LOS PREDIOS Y LAS MEJORAS
+BAJAR AL MENOS EL 50% DEL COSTO DE SERVICIOS BÁSICOS QUE ADMINISTRA EL GAD MUNICIPAL DE PELILEO
+
+
+RECORDANDOLE QUE HACER EFECTIVA ESTA PETICIÓN ESTÁ EN MANOS DEL ILUSTRE CONCEJO MUNICIPAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-10 
+
+
+=================================================================
+Successful convergence
+OpenCL device for computation
+Parameters:
+  scale_s   scale_t      sill 
+372.03079  36.93627  12.28396 
+
+Standard errors:
+   scale_s    scale_t       sill 
+1187.42546  161.54400   13.62072 
+
+Variance-covariance matrix of the estimates:
+           scale_s    scale_t        sill
+scale_s 1409979.23 -190843.52 -15905.3484
+scale_t -190843.52   26096.46   2134.0199
+sill     -15905.35    2134.02    185.5241
+
+
+
+-15
+
+Successful convergence
+OpenCL device for computation
+Parameters:
+  scale_s   scale_t      sill 
+372.03079  36.93627  12.28396 
+
+Standard errors:
+    scale_s     scale_t        sill 
+0.272689396 0.007296761 3.549119729 
+
+Variance-covariance matrix of the estimates:
+             scale_s       scale_t         sill
+scale_s  0.074359507 -1.610476e-03 -0.283799694
+scale_t -0.001610476  5.324272e-05 -0.004144595
+sill    -0.283799694 -4.144595e-03 12.596250851
+
+
+
+Hoy nos conectamos en Vivo a las 20:30. El tema de hoy:
+
+¿Cuáles son las alternativas productivas en Pelileo? 
+
+Queremos comentar posibles alternativas y escuchar sus propuestas. 
+
+#PelileoAnalítico
+#DisciplinaParaVolver
+#PelileñoQuédateEnCasa
+
+
+
+
+
+
+
+atello1712@gmail.com

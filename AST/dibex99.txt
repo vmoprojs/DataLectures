@@ -1,0 +1,12 @@
+Datos diarios del rendimiento del Ibex 35 (logX(t)-logX(t-1)) desde Enero de 1992 hasta
+Diciembre de 1999. 
+1982 datos en total
+
+ 
+   2.2324569e-02
+  -7.3253192e-03
+  -1.2599757e-02
+....
+     2.3835912e-03
+  -7.2064440e-03
+   6.0044078e-03

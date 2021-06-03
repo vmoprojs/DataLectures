@@ -1,0 +1,18 @@
+Nombre de las series:  8 series en columnas. La primera es la de fechas, las siguientes el indice de 
+                        la bolsa de los siguiente mercados
+                         
+                          1  Paris, Indice CAC 40 Francia           
+                          2  Francfort, DAx-EXtra, Alemania  
+                          3  Milan, Indice Banca Commerciale Italiana, Italia 
+                          4  Londres, Indice FT-SE 100, Reino Unido  
+                          5  Nueva York, Dow Jones Estados Unidos
+                          6  Tokio, Indice Nikkei 225Japon
+                          7  Madrid, Indice general
+
+
+Unidades :                            
+Perido   :            156  datos mensuales desde enero de 1988 hasta Diciembre del 2000
+Fuente   :             Eurostat
+Actualiza :            Eurostat  
+
+

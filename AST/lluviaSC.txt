@@ -1,0 +1,6 @@
+Nombre de la series:   LLuvia en Santiago de Compostela, Galicia, España 	
+Unidades :             Miles de Toneladas metricas
+Perido   :             datos mensuales de enero 1988 a diciembre 1997
+Fuente   :             INE.
+Datos por filas, las columnas meses y las filas años. Primera fila es 
+ 444.2       160.1   90.7     179.5      195.1     177.4        61.4      12.6      19.4     192.9     108.2         20.7

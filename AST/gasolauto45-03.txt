@@ -1,0 +1,10 @@
+Nombre de la series:   consumo gasolina auto	
+Unidades :             Miles de Toneladas metricas
+Perido   :             enero de 1945 a diciembre de 2003
+Fuente   :             AOP e INH.
+Actualiza :            SGPC (Area coyuntura nacional)
+Notas     :           Cifras facilitadas por AOP (Asociacion Española de Operadores 
+Petroliferos, que incluye un 95% del total del mercado español) a partir de enero de 1993 
+y enlazadas retrospectivamente con las del INH. Incluye gasolina 92, gasolina 97, sin plomo
+ eurogrado y sin plomo 98 I.O.
+Los datos estan en doce columnas, cada una un mes del año y en 58 filas. Hay 696 datos

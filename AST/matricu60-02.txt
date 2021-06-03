@@ -1,0 +1,9 @@
+Nombre de la serie:        matriculación de automóviles total	
+Unidades :                 UNIDADES
+Periodo:                   Enero de 1960 a diciembre de 2002
+FUENTE:                    Direccion General de Trafico 
+ACTUALIZA:                  SGPC (Area coyuntura nacional)
+NOTAs    : 
+La D.G.T. define como turismo el vehiculo automotor para transportar
+personas con capacidad maxima de 9 asientos: turismos(aprox. 83%), derivados
+de turismo(aprox. 14.7%) y todo terreno(aprox. 2.3%).

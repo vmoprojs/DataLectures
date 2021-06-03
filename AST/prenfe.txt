@@ -1,0 +1,14 @@
+Nombre: Serie de Pasajeros que viajan por renfe en ferrocarril 
+
+Fuente: INE el Banco de Datos de Series TEMPUS 4.02.
+Perido: mensual.  Enero de 1971 hasta Agosto 2000
+Unidades: pasajeros , en miles.
+
+
+TRANSPORTE RENFE. NUMERO DE VIAJEROS
+
+ Años Enero  Febrero Marzo  Abril Mayo   Junio  Julio  Agosto Septiembre Octubre Noviembre Diciembre
+ 1971 12344. 9717.   11670. 13122. 12094. 14841. 19228. 18359.    15550.  13525.    11107.    14314.
+ 
+ 2000 34415.  36467. 38651. 35273. 39195. 38693. 35303. 27543.    36493.
+                                   

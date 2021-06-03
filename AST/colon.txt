@@ -1,0 +1,6 @@
+Nombre de la series:   Leguas diarias recorridas por la carabela de Cristobal Colon en su vieje desde la Isla de
+                        la Gomera (Canarias) hasta la isla de San Salvador en las Antillas (America) en 1492
+
+Unidades :             Leguas marinas, una legua equivale a 5.9 km aoroximadamente 
+Perido   :             datos diarios desde el 8 de Septiembre al 11 de Octubre de 1492
+Fuente   :             Diario del Almirante 

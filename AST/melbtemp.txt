@@ -1,0 +1,12 @@
+Datos de la  tempertura máxima diaria en Melbourne , Australia durante 10 años.
+3650 datos
+Analizados por Roger KoenKer en JE(2000),95, 347-374.
+ 
+datos
+38.1
+32.4
+34.5
+...
+25.1
+24.4
+24.6
