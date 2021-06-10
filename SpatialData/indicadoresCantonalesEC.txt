@@ -1,0 +1,8 @@
+id: División Político Adminisitrativa de Cantones Ecuador
+Can: nombre de canton
+Pob: NBI (personas)
+Sec: Tasa neta de asistencia en educación secundaria
+emb_adol: Porcentaje de embarazo adolescente
+tot_hog: Total de Hogares
+hog_comp: Hogares con disponibilidad de computador
+r_hogcom: Hogares con disponibilidad de computador/Total de Hogares
