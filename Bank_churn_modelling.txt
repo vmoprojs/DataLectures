@@ -25,6 +25,21 @@ the conditions under which land or buildings are held or occupied.
 Balance
 money left in bank account
 
-NumOfProductshow many products
+NumOfProducts
+how many products
+
+HasCrCard
+how many credit cards per person
+
+IsActiveMember
+he or she active in bank or not
+
+EstimatedSalary
+salary per average person
+
+Exited
+those who are left and not left the bank
+
+
 
 SOURCE: https://www.kaggle.com/sanjanavoona1043/bank-churn
