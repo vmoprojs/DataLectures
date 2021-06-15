@@ -13,3 +13,6 @@ VE: Variación de existencias
 EXPOR: Exportaciones de bienes y servicios (fob)	
 UF: Utilización final
 
+pib_ec: dólares corrientes
+pib_ec_const: dólares constantes del 2007
+
