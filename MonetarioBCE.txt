@@ -1,0 +1,16 @@
+Source: Boletin Monetario  https://contenido.bce.fin.ec/home1/estadisticas/bolsemanal/IndiceBMS.htm.
+
+Boletin N. 749
+Unidades: USD corrientes
+
+Download date: 19 junio 2021
+
+Periodo: Enero 2010- mayo 2021
+
+DepositosVista: Se refiere a depósitos en cuenta corriente recibidos por las entidades bancarias, exigibles mediante la presentación de cheques u otros mecanismos de pago y registro. 
+
+M1: La oferta monetaria se define como la cantidad de dinero a disposición inmediata de los agentes para realizar transacciones; contablemente el dinero en sentido estricto, es la suma de las especies monetarias en circulación y los depósitos en cuenta corriente.
+
+Cuasidinero: Corresponde a las captaciones de las Otras Sociedades de Depósito, que sin ser de liquidez inmediata, suponen una "segunda línea" de medios de pago a disposición del público. Está formado por los depósitos de ahorro, plazo, operaciones de reporto, fondos de tarjetahabientes y otros depósitos.
+
+M2: La liquidez total o dinero en sentido amplio incluye la oferta monetaria y el cuasidinero.
