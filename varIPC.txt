@@ -1,0 +1,638 @@
+ÍNDICE DE PRECIOS AL CONSUMIDOR - IPC -		
+VARIACIÓN PORCENTUAL MENSUAL NACIONAL		
+
+NIVEL	Cód. CCIF	Descripción CCIF
+General	0	GENERAL
+División	01	Alimentos y bebidas no alcohólicas
+Grupo	011	Alimentos
+Clase	0111	Pan y cereales (ND)
+Subclase	01111	Arroz
+Producto	01111001	ARROZ
+Subclase	01112	Cereales enteros y harinas
+Producto	01112002	CEREALES ENTEROS
+Producto	01112003	HARINA DE TRIGO
+Producto	01112004	HARINA DE OTROS CEREALES
+Subclase	01113	Gramíneas y derivados
+Producto	01113005	AVENA
+Producto	01113006	CEREALES PREPARADOS
+Subclase	01114	Pan
+Producto	01114007	PAN CORRIENTE
+Producto	01114008	PAN ESPECIAL
+Producto	01114009	PAN ENVASADO
+Subclase	01115	Productos de panadería
+Producto	01115010	GALLETAS
+Subclase	01116	Pastas alimenticias
+Producto	01116011	TALLARINES Y FIDEOS
+Clase	0112	Carne (ND)
+Subclase	01121	Carne de bovino fresca, refrigerada o congelada
+Producto	01121012	CARNE  DE RES SIN HUESO
+Producto	01121013	CARNE DE RES CON HUESO
+Producto	01121014	CARNE DE RES MOLIDA
+Subclase	01122	Carne de porcino fresca, refrigerada o congelada
+Producto	01122015	CHULETA DE CERDO
+Producto	01122016	CARNE DE CERDO SIN HUESO
+Producto	01122017	CARNE DE CERDO CON HUESO
+Subclase	01123	Carne de ovino
+Producto	01123018	CARNE DE OVINO
+Subclase	01124	Carne de aves  fresca, refrigerada o congelada
+Producto	01124019	POLLO ENTERO
+Producto	01124020	PRESAS DE POLLO
+Producto	01124021	MENUDENCIAS DE POLLO
+Subclase	01125	Vísceras frescas
+Producto	01125022	VÍSCERAS DE RES
+Subclase	01126	Carnes preparadas y procesadas
+Producto	01126023	CHORIZO
+Producto	01126024	JAMÓN
+Producto	01126025	MORTADELA
+Producto	01126026	SALCHICHA
+Clase	0113	Pescado (ND)
+Subclase	01131	Pescados  frescos, refrigerados y congeladas
+Producto	01131027	PESCADO FRESCO ENTERO
+Producto	01131028	PESCADO FRESCO FILETEADO
+Subclase	01132	Mariscos frescos, refrigerados, congelados
+Producto	01132029	CAMARÓN
+Subclase	01133	Pescados  y mariscos procesados y preparados
+Producto	01133030	ATÚN EN CONSERVA
+Producto	01133031	SARDINAS EN CONSERVA
+Clase	0114	Leche, queso y huevos (ND)
+Subclase	01141	Leche líquida
+Producto	01141032	LECHE LÍQUIDA VEGETAL
+Producto	01141033	LECHE LÍQUIDA PASTEURIZADA
+Producto	01141034	LECHE LÍQUIDA LARGA VIDA
+Subclase	01142	Leche conservada
+Producto	01142035	LECHE EN POLVO
+Producto	01142036	LECHE MATERNIZADA EN POLVO
+Subclase	01143	Yogures y productos en base leche
+Producto	01143037	YOGURT
+Subclase	01144	Quesos
+Producto	01144038	QUESO FRESCO
+Producto	01144039	QUESO DE MESA
+Subclase	01145	Huevos
+Producto	01145040	HUEVOS DE GALLINA
+Clase	0115	Aceites y grasas (ND)
+Subclase	01151	Aceites puros y mezclados
+Producto	01151041	ACEITE VEGETAL 
+Producto	01151042	ACEITE PURO
+Subclase	01152	Grasas para la cocina
+Producto	01152043	MARGARINA
+Producto	01152044	MANTEQUILLA
+Producto	01152045	MANTECA
+Clase	0116	Frutas (ND)
+Subclase	01161	Frutas frescas refrigeradas y congeladas
+Producto	01161046	AGUACATE
+Producto	01161047	BANANA
+Producto	01161048	LIMÓN
+Producto	01161049	MANDARINA
+Producto	01161050	NARANJA
+Producto	01161051	NARANJILLA
+Producto	01161052	PAPAYA
+Producto	01161053	PIÑA
+Producto	01161054	PLÁTANO MADURO
+Producto	01161055	PLÁTANO VERDE
+Producto	01161056	UVAS
+Producto	01161057	MELÓN
+Producto	01161058	MORA
+Producto	01161059	MANZANA
+Producto	01161060	MARACUYÁ
+Producto	01161061	SANDÍA
+Producto	01161062	FRUTILLA
+Producto	01161063	TOMATE DE ÁRBOL
+Producto	01161064	FRUTAS DE TEMPORADA
+Subclase	01162	Frutas secas y en conserva (procesadas)
+Producto	01162065	MANÍ
+Clase	0117	Legumbres-Hortalizas (ND)
+Subclase	01171	Productos de huerta frescos
+Producto	01171066	AJO
+Producto	01171067	ACELGA
+Producto	01171068	BRÓCOLI
+Producto	01171069	CEBOLLA BLANCA
+Producto	01171070	CEBOLLA PAITEÑA
+Producto	01171071	CHOCLO
+Producto	01171072	COL
+Producto	01171073	COLIFLOR
+Producto	01171074	LECHUGA
+Producto	01171075	PEPINILLO 
+Producto	01171076	PIMIENTO
+Producto	01171077	REMOLACHA
+Producto	01171078	TOMATE RIÑÓN
+Producto	01171079	ZANAHORIA AMARILLA
+Producto	01171080	ARVEJA TIERNA
+Producto	01171081	FRÉJOL TIERNO
+Producto	01171082	HABA TIERNA
+Producto	01171083	OTROS PRODUCTOS DE HUERTA FRESCOS
+Subclase	01172	Papas y tubérculos
+Producto	01172084	PAPA 
+Producto	01172085	YUCA Y CAMOTE
+Producto	01172086	MELLOCO
+Subclase	01173	Leguminosas secos y vegetales en conserva
+Producto	01173087	FRÉJOL SECO
+Producto	01173088	LENTEJA
+Producto	01173089	ARVEJA SECA
+Producto	01173090	MOTE
+Clase	0118	Azúcar, mermelada, miel, chocolate y dulces de azúcar (ND)
+Subclase	01181	Azúcar y sucedáneos del azúcar
+Producto	01181091	AZÚCAR
+Producto	01181092	SUSTITUTO DEL AZÚCAR
+Subclase	01182	Chocolates, dulces de azúcar y helados
+Producto	01182093	CARAMELOS
+Producto	01182094	CHOCOLATES
+Producto	01182095	CHICLE
+Producto	01182096	HELADOS
+Clase	0119	Productos alimenticios n.e.p. (ND)
+Subclase	01191	Condimentos naturales
+Producto	01191097	SAL
+Producto	01191098	CULANTRO
+Subclase	01192	Condimentos y aderezos procesados
+Producto	01192099	MAYONESA
+Producto	01192100	SALSA DE TOMATE
+Producto	01192101	MOSTAZA
+Producto	01192102	ALIÑOS PREPARADOS
+Producto	01192103	CONDIMENTOS PROCESADOS
+Subclase	01193	Preparados alimenticios
+Producto	01193104	GELATINA EN POLVO
+Producto	01193105	ALIMENTOS PREPARADOS PARA BEBÉ
+Producto	01193106	SNACKS
+Grupo	012	Bebidas no alcohólicas
+Clase	0121	Café, té y cacao (ND)
+Subclase	01211	Café, té y cacao
+Producto	01211107	CAFÉ SOLUBLE
+Producto	01211108	CAFÉ MOLIDO
+Producto	01211109	COCOA
+Producto	01211110	HIERBA AROMÁTICA
+Clase	0122	Aguas minerales, refrescos, jugos de frutas y de legumbres (ND)
+Subclase	01221	Aguas minerales, gaseosas, jugos de frutas 
+Producto	01221111	AGUA EMBOTELLADA PURIFICADA
+Producto	01221112	GASEOSA
+Producto	01221113	BEBIDAS ENERGIZANTES E HIDRATANTES
+Producto	01221114	JUGO DE FRUTAS
+Producto	01221115	REFRESCOS
+División	02	Bebidas alcohólicas, tabaco y estupefacientes
+Grupo	021	Bebidas alcohólicas
+Clase	0211	Bebidas destiladas (ND)
+Subclase	02111	Bebidas destiladas
+Producto	02111116	AGUARDIENTE DE CAÑA
+Producto	02111117	WHISKY
+Clase	0213	Cerveza (ND)
+Subclase	02131	Cerveza
+Producto	02131118	CERVEZA ENVASADA
+Grupo	022	Tabaco
+Clase	0221	Tabaco (ND)
+Subclase	02211	Tabaco
+Producto	02211119	CIGARRILLOS
+División	03	Prendas de vestir y calzado
+Grupo	031	Prendas de vestir
+Clase	0311	Materiales para prendas de vestir (SD)
+Subclase	03111	Materiales para prendas de vestir (telas, tejidos)
+Producto	03111120	TELAS PARA CONFECCIÓN
+Clase	0312	Prendas de vestir (SD)
+Subclase	03121	Prendas de vestir de hombres de 13 años y más
+Producto	03121121	TERNO PARA HOMBRE 
+Producto	03121122	CHOMPA PARA HOMBRE
+Producto	03121123	PANTALÓN PARA HOMBRE
+Producto	03121124	CAMISA PARA HOMBRE
+Producto	03121125	CAMISETA PARA HOMBRE
+Producto	03121126	MEDIAS PARA HOMBRE
+Producto	03121127	ROPA INTERIOR PARA HOMBRE
+Subclase	03122	Prendas de vestir de mujeres de 13 años y más
+Producto	03122128	TERNO Y VESTIDO PARA MUJER 
+Producto	03122129	CHOMPA PARA MUJER
+Producto	03122130	FALDA PARA MUJER
+Producto	03122131	PANTALÓN Y LICRA PARA MUJER
+Producto	03122132	BLUSA PARA MUJER
+Producto	03122133	ROPA PARA DORMIR PARA MUJER
+Producto	03122134	ROPA INTERIOR PARA MUJER
+Producto	03122135	MEDIAS PARA MUJER
+Subclase	03123	Prendas de vestir de niños y niñas de 3 a 12 años
+Producto	03123136	CHOMPAS DE NIÑAS Y NIÑOS
+Producto	03123137	CONJUNTO PARA NIÑAS Y NIÑOS
+Producto	03123138	CAMISETA PARA NIÑAS Y NIÑOS
+Producto	03123139	BLUSA PARA NIÑAS 
+Producto	03123140	PANTALONES PARA NIÑAS Y NIÑOS
+Producto	03123141	ROPA INTERIOR PARA NIÑAS Y NIÑOS
+Producto	03123142	MEDIAS PARA NIÑAS Y NIÑOS
+Producto	03123143	UNIFORME ESCOLAR
+Subclase	03124	Prendas de vestir y complementos para niños y niñas de 0 a 2 años
+Producto	03124144	CAMISETA PARA BEBÉ
+Producto	03124145	ROPA EXTERIOR PARA BEBÉ
+Producto	03124146	ROPA INTERIOR PARA BEBÉ
+Clase	0313	Otros artículos y accesorios de vestir (SD)
+Subclase	03131	Accesorios de vestir
+Producto	03131147	CORREA
+Producto	03131148	GORRA
+Producto	03131149	CORBATA
+Clase	0314	Limpieza, reparación y alquiler de prendas de vestir (S)
+Subclase	03141	Limpieza, reparación y alquiler de prendas de vestir
+Producto	03141150	CONFECCIÓN Y REPARACIÓN DE PRENDAS DE VESTIR
+Producto	03141151	LIMPIEZA Y LAVADO DE PRENDAS DE VESTIR
+Grupo	032	Calzado
+Clase	0321	Zapatos y otros calzados (SD)
+Subclase	03211	Zapatos de hombres de 13 años y más
+Producto	03211152	CALZADO PARA HOMBRE
+Producto	03211153	SANDALIAS PARA HOMBRE
+Producto	03211154	ZAPATOS DEPORTIVOS PARA HOMBRE
+Producto	03211155	BOTAS PARA HOMBRE
+Subclase	03212	Zapatos de mujeres de 13 años y más
+Producto	03212156	CALZADO PARA MUJER
+Producto	03212157	ZAPATOS DEPORTIVOS PARA MUJER
+Producto	03212158	BOTAS PARA MUJER
+Subclase	03213	Zapatos de niños y niñas de 3 a 12 años
+Producto	03213159	CALZADO PARA NIÑAS Y NIÑOS
+Producto	03213160	ZAPATOS DEPORTIVOS PARA NIÑAS Y NIÑOS
+Producto	03213161	BOTAS PARA NIÑAS Y NIÑOS
+Subclase	03214	Zapatos de niños y niñas de 0 a 2 años
+Producto	03214162	CALZADO PARA BEBÉ
+Clase	0322	Reparación y alquiler de calzado (S)
+Subclase	03221	Reparación y alquiler de calzado
+Producto	03221163	LIMPIEZA Y REPARACIÓN DE CALZADO
+División	04	Alojamiento, agua, electricidad, gas y otros combustibles
+Grupo	041	Alquileres efectivos del alojamiento
+Clase	0411	Alquileres efectivos pagados por los inquilinos (S)
+Subclase	04111	Alquileres efectivos de la vivienda
+Producto	04111164	ALQUILER DE CASA
+Producto	04111165	ALQUILER DE DEPARTAMENTO
+Producto	04111166	ALQUILER DE PIEZA
+Grupo	043	Conservación y reparación de la vivienda
+Clase	0431	Materiales para la conservación y la reparación de la vivienda (ND)
+Subclase	04311	Materiales para la conservación y la reparación de la vivienda
+Producto	04311167	CEMENTO
+Producto	04311168	PINTURA
+Producto	04311169	MATERIALES PARA REPARACIÓN DE LA VIVIENDA
+Clase	0432	Servicios para la conservación y la reparación de la vivienda (S)
+Subclase	04321	Servicios para la conservación y la reparación de la vivienda
+Producto	04321170	SERVICIOS DE REPARACIÓN DE LA VIVIENDA
+Grupo	044	Suministro de agua y servicios diversos relacionados con la vivienda
+Clase	0441	Suministro de agua (ND)
+Subclase	04411	Suministro de agua
+Producto	04411171	SUMINISTRO DE AGUA
+Clase	0444	Otros servicios relacionados con la vivienda n.e.p. (S)
+Subclase	04441	Servicios relacionados con la vivienda
+Producto	04441172	SERVICIO DE SEGURIDAD DE LA VIVIENDA
+Grupo	045	Electricidad, gas y otros combustibles
+Clase	0451	Electricidad (ND)
+Subclase	04511	Electricidad
+Producto	04511173	SERVICIO DE CONSUMO ELÉCTRICO
+Clase	0452	Gas (ND)
+Subclase	04521	Gas
+Producto	04521174	GAS DOMÉSTICO
+División	05	Muebles, artículos para el hogar y para la conservación ordinaria del hogar
+Grupo	051	Muebles y accesorios, alfombras y otros materiales para pisos
+Clase	0511	Muebles y accesorios (D)
+Subclase	05111	Muebles de sala y comedor
+Producto	05111175	JUEGO DE SALA
+Producto	05111176	JUEGO DE COMEDOR
+Subclase	05112	Muebles de dormitorio
+Producto	05112177	JUEGO DE DORMITORIO
+Producto	05112178	COLCHÓN
+Clase	0512	Alfombras y otros materiales para pisos (D)
+Subclase	05121	Alfombras y materiales para pisos
+Producto	05121179	ALFOMBRA SUELTA
+Clase	0513	Reparación de muebles, accesorios y materiales para pisos (S)
+Subclase	05131	Reparación de muebles, accesorios y materiales para pisos
+Producto	05131180	REPARACIÓN DE MUEBLES
+Grupo	052	Productos textiles para el hogar
+Clase	0520	Productos textiles para el hogar (SD)
+Subclase	05201	Productos textiles para el hogar 
+Producto	05201181	ROPA DE CAMA
+Producto	05201182	CORTINA DE TELA
+Producto	05201183	ROPA DE BAÑO
+Grupo	053	Artefactos para el hogar
+Clase	0531	Artefactos para el hogar grandes, eléctricos o no (D)
+Subclase	05311	Artefactos grandes para el hogar
+Producto	05311184	COCINA
+Producto	05311185	HORNO
+Producto	05311186	REFRIGERADORA
+Producto	05311187	LAVADORA Y SECADORA DE ROPA
+Producto	05311188	ACONDICIONADOR DE AIRE
+Clase	0532	Artefactos eléctricos para el hogar pequeños (SD)
+Subclase	05321	Artefactos eléctricos para el hogar pequeños
+Producto	05321189	LICUADORA
+Producto	05321190	VENTILADOR
+Producto	05321191	PLANCHA ELÉCTRICA DE ROPA
+Producto	05321192	DUCHA ELÉCTRICA
+Clase	0533	Reparación de artefactos para el hogar (S)
+Subclase	05331	Reparación de artefactos para el hogar
+Producto	05331193	REPARACIÓN DE ARTEFACTOS PARA EL HOGAR
+Grupo	054	Artículos de vidrio y cristal, vajilla y utensilios para el hogar
+Clase	0540	Artículos de vidrio y cristal, vajilla y utensilios para el hogar (SD)
+Subclase	05401	Artículos de vidrio y cristal, vajilla y utensilios para el hogar
+Producto	05401194	OLLAS
+Grupo	055	Herramientas y equipo para el hogar y el jardín
+Clase	0551	Herramientas y equipo grandes (D)
+Subclase	05511	Herramientas y equipos grandes
+Producto	05511195	BOMBA DE AGUA
+Clase	0552	Herramientas pequeñas y accesorios diversos (SD)
+Subclase	05521	Lámparas incandescentes, fluorescentes y pilas
+Producto	05521196	FOCO DE LUZ
+Producto	05521197	PILAS
+Producto	05521198	CANDADO
+Grupo	056	Bienes y servicios para conservación ordinaria del hogar
+Clase	0561	Bienes para el hogar no duraderos (ND)
+Subclase	05611	Productos de limpieza y mantenimiento
+Producto	05611199	DETERGENTE PARA ROPA
+Producto	05611200	JABÓN PARA ROPA
+Producto	05611201	JABÓN PARA VAJILLA
+Producto	05611202	CLORO Y DESINFECTANTE
+Producto	05611203	BETÚN 
+Producto	05611204	CERA PARA PISOS
+Producto	05611205	DESODORANTE AMBIENTAL
+Producto	05611206	SUAVIZANTE DE ROPA
+Producto	05611207	INSECTICIDA
+Subclase	05612	Productos no duraderos para el hogar
+Producto	05612208	ESCOBA
+Producto	05612209	ESPONJA LAVA VAJILLA
+Producto	05612210	FUNDAS PARA BASURA
+Producto	05612211	SERVILLETAS 
+Producto	05612212	FÓSFOROS
+Producto	05612213	VELAS
+Clase	0562	Servicios domésticos y para el hogar (S)
+Subclase	05621	Servicios domésticos y  para el hogar
+Producto	05621214	SERVICIOS DOMÉSTICOS
+División	06	Salud
+Grupo	061	Productos, artefactos y equipo médicos
+Clase	0611	Productos farmacéuticos (ND)
+Subclase	06111	Productos farmacéuticos
+Producto	06111215	ANALGÉSICOS Y ANTIPIRÉTICOS (N02B)
+Producto	06111216	COMBINACIONES DE SUPRESORES DE LA TOS Y EXPECTORANTES (R05F)
+Producto	06111217	"PREPARADOS DERMATOLÓGICOS 
+(D11A)"
+Producto	06111218	ANTIBIÓTICO
+Producto	06111219	ANTIHISTAMÍNICO PARA USO SISTÉMICO (R06A)
+Producto	06111220	ANTIINFLAMATORIO Y ANTIRREUMÁTICOS NO ESTEROIDEOS (M01A)
+Producto	06111221	TRACTO ALIMENTARIO Y METABOLISMO (A)
+Producto	06111222	ANTIHELMÍNTICOS (ANTIPARASITARIO) (P02)
+Producto	06111223	SISTEMA CARDIOVASCULAR (C)
+Producto	06111224	MEDICAMENTOS USADOS EN DIABETES (A10)
+Producto	06111225	ANTICONCEPTIVOS HORMONALES PARA USO SISTÉMICO (G03A)
+Producto	06111226	ANTIFÚNGICOS PARA USO DERMATOLÓGICO (D01)
+Producto	06111227	OFTALMOLÓGICOS (S01)
+Producto	06111228	MEDICAMENTOS PARA EL SISTEMA NERVIOSO (N)
+Producto	06111229	SUPLEMENTOS MINERALES, VITAMINAS Y PREPARADOS ANTIANÉMICOS (A12) (A11) (B03)
+Clase	0612	Otros productos médicos (ND)
+Subclase	06121	Antisépticos y preservativos
+Producto	06121230	ALCOHOL ANTISÉPTICO
+Producto	06121231	PRESERVATIVO
+Clase	0613	Artefactos y equipo terapéuticos (D)
+Subclase	06131	Artefactos y equipos terapéuticos
+Producto	06131232	LENTES ÓPTICOS DE CORRECCIÓN
+Producto	06131233	AUDÍFONOS DE CORRECCIÓN
+Grupo	062	Servicios para pacientes externos
+Clase	0621	Servicios médicos (S)
+Subclase	06211	Servicios médicos
+Producto	06211234	CONSULTA MÉDICO GENERAL
+Producto	06211235	CONSULTA MÉDICO ESPECIALISTA
+Clase	0622	Servicios dentales (S)
+Subclase	06221	Servicios dentales
+Producto	06221236	SERVICIOS ODONTOLÓGICOS
+Clase	0623	Servicios paramédicos (S)
+Subclase	06231	Servicios paramédicos
+Producto	06231237	EXÁMENES MÉDICOS DE SONIDO
+Producto	06231238	EXAMEN DE LABORATORIO
+Producto	06231239	EXÁMENES MÉDICOS DE IMÁGENES
+Grupo	063	Servicios de hospital (S)
+Clase	0630	Servicios de hospital (S)
+Subclase	06301	Servicios de hospital
+Producto	06301240	GASTOS EN HOSPITALIZACIÓN
+División	07	Transporte
+Grupo	071	Adquisición de vehículos
+Clase	0711	Vehículos a motor (D)
+Subclase	07111	Vehículos a motor
+Producto	07111241	AUTOMÓVIL
+Clase	0712	Motocicletas (D)
+Subclase	07121	Motocicletas nuevas
+Producto	07121242	MOTOCICLETA
+Clase	0713	Bicicletas (D)
+Subclase	07131	Bicicleta
+Producto	07131243	BICICLETA
+Grupo	072	Funcionamiento de equipo de transporte personal
+Clase	0721	Piezas de repuesto y accesorios para equipo de transporte personal (SD)
+Subclase	07211	Piezas de repuesto y accesorios para equipo de transporte personal
+Producto	07211244	BATERÍA
+Producto	07211245	NEUMÁTICO
+Producto	07211246	AMORTIGUADORES
+Clase	0722	Combustibles y lubricantes para equipo de transporte personal (ND)
+Subclase	07221	Combustibles y lubricantes para equipo de transporte personal
+Producto	07221247	DIÉSEL
+Producto	07221248	GASOLINA ECOLÓGICA
+Producto	07221249	GASOLINA BAJO OCTANAJE
+Producto	07221250	GASOLINA ALTO OCTANAJE
+Producto	07221251	ACEITE LUBRICANTE
+Clase	0723	Conservación y reparación de equipo de transporte personal (S)
+Subclase	07231	Conservación y reparación de equipo de transporte personal
+Producto	07231252	AFINAMIENTO (ABC)
+Producto	07231253	LAVADO, ENGRASADO Y PULVERIZADO
+Producto	07231254	CAMBIO, ALINEACIÓN Y BALANCEO DE NEUMÁTICOS
+Producto	07231255	INSPECCIÓN TÉCNICA
+Clase	0724	Servicios de estacionamiento y peaje (S)
+Subclase	07241	Servicios de estacionamiento y peaje
+Producto	07241256	ESTACIONAMIENTO
+Producto	07241257	PEAJE
+Producto	07241258	SERVICIO DE WINCHA
+Grupo	073	Servicios de transporte
+Clase	0732	Transporte de pasajeros por carretera (S)
+Subclase	07321	Transporte de pasajeros por carretera
+Producto	07321259	TRANSPORTE URBANO
+Producto	07321260	TAXI URBANO
+Producto	07321261	TRANSPORTE INTERURBANO
+Producto	07321262	TRANSPORTE ESCOLAR
+Clase	0733	Transporte de pasajeros por aire (S)
+Subclase	07331	Transporte de pasajeros por aire
+Producto	07331263	VIAJE EN AVIÓN
+División	08	Comunicaciones
+Grupo	081	Servicios postales
+Clase	0810	Servicios postales (S)
+Subclase	08101	Servicios postales
+Producto	08101264	ENVÍO DE PAQUETE
+Grupo	082	Equipo telefónico y de facsímile
+Clase	0820	Equipo telefónico y de facsímile (D)
+Subclase	08201	Equipo telefónico y de facsímile
+Producto	08201265	TELÉFONO CELULAR
+Grupo	083	Servicios telefónicos y de facsímile
+Clase	0830	Servicios telefónicos y de facsímile (S)
+Subclase	08301	Servicios telefónicos
+Producto	08301266	SERVICIO DE TELEFONÍA CELULAR
+Producto	08301267	SERVICIO DE TELEFONÍA RESIDENCIAL
+Subclase	08302	Servicios de alquiler de teléfono e internet
+Producto	08302268	SERVICIO DE ALQUILER DE TELÉFONO
+Producto	08302269	SERVICIO DE INTERNET
+División	09	Recreación y cultura
+Grupo	091	Equipo audiovisual, fotográfico y de procesamiento de información
+Clase	0911	Equipo para la recepción, grabación y reproducción de sonidos e imágenes (D)
+Subclase	09111	Equipo para la recepción, grabación y reproducción de sonidos e imágenes
+Producto	09111270	REPRODUCTOR DE SONIDO
+Producto	09111271	REPRODUCTOR DE VIDEO
+Producto	09111272	TELEVISOR
+Clase	0912	Equipo fotográfico y cinematográfico e instrumentos ópticos (D)
+Subclase	09121	Equipos fotográficos 
+Producto	09121273	CÁMARA FOTOGRÁFICA
+Clase	0913	Equipo de procesamiento e información (D)
+Subclase	09131	Equipo de procesamiento de la información
+Producto	09131274	COMPUTADORA ESCRITORIO
+Producto	09131275	COMPUTADORA PORTÁTIL
+Producto	09131276	IMPRESORA
+Clase	0914	Medios para grabación (SD)
+Subclase	09141	Medios para grabación
+Producto	09141277	MEMORY FLASH
+Producto	09141278	DISPOSITIVOS DE ALMACENAMIENTO DE DATOS
+Clase	0915	Reparación de equipo audiovisual, fotográfico y de procesamiento de información (S)
+Subclase	09151	Reparación de equipos audiovisuales 
+Producto	09151279	REPARACIÓN DE EQUIPOS ELECTRÓNICOS
+Grupo	092	Otros productos duraderos importantes para recreación y cultura
+Clase	0922	Instrumentos musicales y equipos duraderos importantes para recreación en interiores (d)
+Subclase	09221	Instrumentos musicales y equipos duraderos importantes para recreación en interiores
+Producto	09221280	GUITARRA
+Grupo	093	Otros artículos y equipo para recreación, jardines y animales domésticos
+Clase	0931	Conservación y reparación de otros bienes duraderos importantes para recreación y cultura (S)
+Subclase	09311	Juegos, juguetes y aficiones
+Producto	09311281	JUGUETE
+Producto	09311282	JUEGO ELECTRÓNICO
+Producto	09311283	MUÑECA
+Clase	0932	Equipo de deportes, campamentos y recreación al aire libre (SD)
+Subclase	09321	Equipo de deportes, campamentos y recreación al aire libre
+Producto	09321284	BALÓN DEPORTIVO
+Producto	09321285	MÁQUINA DE EJERCICIO
+Clase	0933	Jardines, plantas y flores (ND)
+Subclase	09331	Jardines, plantas y flores
+Producto	09331286	FLORES
+Clase	0934	Animales domésticos y productos conexos (ND)
+Subclase	09341	Animales domésticos y productos para mascotas
+Producto	09341287	ALIMENTO PREPARADO PARA MASCOTAS
+Clase	0935	Servicios de veterinaria y de otro tipo para animales domésticos (S)
+Subclase	09351	Servicios de veterinario
+Producto	09351288	GASTO EN MÉDICO VETERINARIO
+Grupo	094	Servicios de recreación y culturales
+Clase	0941	Servicios de recreación y deportivos (S)
+Subclase	09411	Servicio de recreación y deportivos
+Producto	09411289	ENTRADA A ESTADIOS DEPORTIVOS
+Producto	09411290	GIMNASIO
+Producto	09411291	PISCINA Y SITIOS DE RECREACIÓN
+Producto	09411292	CLASES DE DEPORTE
+Clase	0942	Servicios culturales (S)
+Subclase	09421	Servicio culturales
+Producto	09421293	ENTRADA A CINE
+Producto	09421294	ENTRADA A DISCOTECA
+Producto	09421295	GASTO EN TARIFA DE TELEVISIÓN PAGADA
+Clase	0943	Juegos de azar (S)
+Subclase	09431	Juegos de azar
+Producto	09431296	BILLETE DE  LOTERÍA
+Grupo	095	Periódicos, libros y papeles y útiles de oficina
+Clase	0951	Libros (SD)
+Subclase	09511	Libros
+Producto	09511297	LIBROS Y ENCICLOPEDIAS
+Producto	09511298	TEXTOS DE ENSEÑANZA DE TODO NIVEL EDUCATIVO
+Clase	0952	Diarios y periódicos (ND)
+Subclase	09521	Diarios y periódicos
+Producto	09521299	PERIÓDICOS Y REVISTAS
+Clase	0954	Papel y útiles de oficina y materiales de dibujo (ND)
+Subclase	09541	Papel y útiles de oficina y materiales de dibujo
+Producto	09541300	CUADERNOS
+Producto	09541301	BOLÍGRAFOS
+Producto	09541302	ÚTILES ESCOLARES
+Grupo	096	Paquetes turísticos
+Clase	0960	Paquetes turísticos (S)
+Subclase	09601	Paquetes turísticos
+Producto	09601303	PAQUETE DE VACACIONES
+División	10	Educación
+Grupo	101	Enseñanza preescolar y enseñanza primaria
+Clase	1010	Enseñanza preescolar y enseñanza primaria (S)
+Subclase	10101	Enseñanza preescolar y enseñanza primaria
+Producto	10101304	EDUCACIÓN INICIAL
+Producto	10101305	EDUCACIÓN GENERAL BÁSICA
+Grupo	102	Enseñanza secundaria
+Clase	1020	Enseñanza secundaria (S)
+Subclase	10201	Enseñanza secundaria
+Producto	10201306	EDUCACIÓN BÁSICA SUPERIOR
+Producto	10201307	EDUCACIÓN BACHILLERATO
+Producto	10201308	EDUCACIÓN BACHILLERATO A DISTANCIA
+Grupo	104	Enseñanza terciaria
+Clase	1040	Enseñanza terciaria (S)
+Subclase	10401	Enseñanza universitaria
+Producto	10401309	EDUCACIÓN UNIVERSITARIA PREGRADO
+Producto	10401310	EDUCACIÓN UNIVERSITARIA POSTGRADO
+Grupo	105	Enseñanza no atribuible a ningún nivel
+Clase	1050	Enseñanza no atribuible a ningún nivel (S)
+Subclase	10501	Enseñanza no atribuible a ningún nivel
+Producto	10501311	CURSO DE COMPUTACIÓN
+Producto	10501312	CURSO DE IDIOMAS
+División	11	Restaurantes y hoteles
+Grupo	111	Servicios de suministro de comidas por contrato
+Clase	1111	Restaurantes, cafés y establecimientos similares (S)
+Subclase	11111	Restaurantes, cafés y establecimientos similares
+Producto	11111313	DESAYUNO
+Producto	11111314	ALMUERZO POPULAR
+Producto	11111315	ALMUERZO EJECUTIVO 
+Producto	11111316	COMIDA TRADICIONAL PREPARADA 
+Producto	11111317	PLATOS PREPARADOS
+Producto	11111318	COMIDA RÁPIDA
+Producto	11111319	HAMBURGUESA Y SÁNDUCHE
+Producto	11111320	BEBIDAS CALIENTES
+Producto	11111321	POSTRES PREPARADOS
+Grupo	112	Servicios de alojamiento
+Clase	1121	Servicios de alojamiento (S)
+Subclase	11211	Servicios de alojamiento
+Producto	11211322	ALOJAMIENTO EN HOTELES
+Producto	11211323	ALOJAMIENTO EN HOSTALES
+División	12	Bienes y servicios diversos
+Grupo	121	Cuidado personal
+Clase	1211	Salones de peluquería y establecimientos de cuidados personales (S)
+Subclase	12111	Salones de peluquería y establecimientos de cuidados personales
+Producto	12111324	LAVADO Y CEPILLADO DE CABELLO PARA MUJER
+Producto	12111325	CORTE DE CABELLO
+Producto	12111326	MANICURE
+Producto	12111327	TRATAMIENTOS PARA EL CABELLO
+Clase	1212	Aparatos eléctricos para el cuidado personal (D)
+Subclase	12121	Aparatos eléctricos para el cuidado personal
+Producto	12121328	PLANCHA PARA EL CABELLO
+Clase	1213	Otros aparatos, artículos y productos para la atención personal (ND)
+Subclase	12131	Aparatos no eléctricos y artículos para la atención personal
+Producto	12131329	ACEITE PARA BEBÉ
+Producto	12131330	ACONDICIONADOR PARA EL CABELLO
+Producto	12131331	COSMÉTICOS
+Producto	12131332	PROTECTOR SOLAR
+Producto	12131333	CEPILLO DE DIENTES
+Producto	12131334	CREMAS PARA LA PIEL
+Producto	12131335	GEL Y FIJADOR DE CABELLO
+Producto	12131336	DESODORANTE 
+Producto	12131337	JABÓN PARA TOCADOR
+Producto	12131338	PAÑALES DESECHABLES
+Producto	12131339	PAPEL HIGIÉNICO
+Producto	12131340	PASTA DENTAL
+Producto	12131341	PERFUMES
+Producto	12131342	TOALLAS SANITARIAS
+Producto	12131343	RASURADORA
+Producto	12131344	SHAMPOO
+Producto	12131345	TALCO PARA PIES
+Producto	12131346	TINTE PARA EL CABELLO
+Grupo	123	Efectos personales n.e.p.
+Clase	1231	Joyería, relojes de pared y relojes de pulsera (D)
+Subclase	12311	Joyería, relojes de pared y relojes de pulsera
+Producto	12311347	RELOJ DE MANO
+Producto	12311348	ANILLO
+Clase	1232	Otros efectos personales (SD)
+Subclase	12321	Artículos personales varios
+Producto	12321349	BOLSOS Y CARTERAS
+Producto	12321350	GAFAS PARA SOL
+Producto	12321351	MOCHILA ESCOLAR
+Grupo	124	Protección social
+Clase	1240	Protección social (S)
+Subclase	12401	Guarderías y casas cunas
+Producto	12401352	SERVICIO DE GUARDERÍAS INFANTILES
+Grupo	125	Seguros
+Clase	1252	Seguro relacionado con la vivienda (S)
+Subclase	12521	Seguro relacionado con la vivienda
+Producto	12521353	SEGURO PARA LA VIVIENDA
+Clase	1253	Seguro relacionado con la salud (S)
+Subclase	12531	Seguro relacionado con la salud
+Producto	12531354	SEGURO DE SALUD
+Clase	1254	Seguro relacionado con el transporte (S)
+Subclase	12541	Seguro relacionado con el transporte
+Producto	12541355	SEGURO DE VEHÍCULO
+Grupo	126	Servicios financieros n.e.p.
+Clase	1262	Otros servicios financieros n.e.p. (S)
+Subclase	12621	Servicios financieros
+Producto	12621356	SERVICIOS BANCARIOS
+Grupo	127	Otros servicios n.e.p.
+Clase	1270	Otros servicios n.e.p. (S)
+Subclase	12701	Servicios judiciales, sociales y fotocopias
+Producto	12701357	GASTOS COMPROMISOS SOCIALES
+Producto	12701358	SERVICIOS JUDICIALES
+Producto	12701359	FOTOCOPIAS
