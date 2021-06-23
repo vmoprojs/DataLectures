@@ -1,5 +1,6 @@
 Datos Encuesta Nacional de Actividades de Innovación (AI) 2012-2014
 
+DPAprov: DPA de la provincia
 
 •exitoso: Porcentaje de innovaciones exitosas. Igual a 1 cuando la innovación se realiza en procesos y productos.
 
