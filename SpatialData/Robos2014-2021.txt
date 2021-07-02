@@ -1,0 +1,13 @@
+Fuente: http://cifras.ministeriodegobierno.gob.ec/comisioncifras/inicio.php
+
+Fuente:	Registros administrativos de denuncias receptadas en el Sistema Integrado de Administración de Fiscalías (SIAF) - Comisión Estadística de Seguridad Ciudadana y Justicia			
+Fecha de Corte:	31-1-2021			
+Elaborado por:	Dirección de Diseño e Implementación de TI (MDG)			
+
+DELITO: Tipo de delito
+PROVINCIA:
+CANTÓN	
+MES	
+AÑO	
+NumDelitos
+					
