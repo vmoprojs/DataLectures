@@ -1,0 +1,13 @@
+https://dialnet.unirioja.es/servlet/articulo?codigo=5371175
+
+Ventana: 
+
+IPC: índice de precios al consumidor
+IR: índice de remuneraciones
+M1: Oferta monetaria (millones de USD)
+GP: Gasto publico (millones de USD)
+RI: Reservas internacionales (millones de USD)
+
+
+
+
