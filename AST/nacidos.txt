@@ -1,0 +1,6 @@
+Nombre de laS serie:   Nacimientos en España 
+Unidades :            Personas nacidas vivas
+Perido   :             datos anuales entre 1946 y 2000
+Fuente   :             Instituto Nacional de Estadistica (INE)
+Actualiza :            Instituto Nacional de Estadistica (INE)
+Notas     :           

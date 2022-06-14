@@ -1,0 +1,29 @@
+Datos Encuesta Nacional de Actividades de Innovación (AI) 2012-2014
+
+DPAprov: DPA de la provincia
+
+•exitoso: Porcentaje de innovaciones exitosas. Igual a 1 cuando la innovación se realiza en procesos y productos.
+
+•actipor: Innovación interna. Valor destinado hacia actividades de investigación y desarrollo al interior de la empresa
+
+•ImasD: Porcentaje de empresas que cooperaron en actividades de Investigación y Desarrollo.
+
+•IngDis: Porcentaje de empresas que cooperaron en actividades de Ingeniería yDiseño.
+
+•Capa: Porcentaje de empresas que cooperaron en actividades de Capacitación.
+
+•Asistec:  Porcentaje  de  empresas  que  cooperaron  en  actividades  de  AsistenciaTécnica.
+
+•Info: Porcentaje de empresas que cooperaron en actividades de Información.
+
+•Pruebas: Porcentaje de empresas que cooperaron en actividades de Pruebas deProductos.
+
+•Público:  Porcentaje  de  gasto  en  Investigación  y  Desarrollo  financiado  por  elGobierno sobre el total de gasto en I+D.
+
+•Apoyo: Monto de apoyo no reembolsable en Investigación y Desarrollo.
+
+•Financiero: Promedio de financiamiento realizado por la Banca Privada.
+
+•GDPP: Logaritmo del valor agregado bruto 
+
+FUENTE: (PDF) Innovación en Ecuador: un enfoque espacial. Available from: https://www.researchgate.net/publication/338836947_Innovacion_en_Ecuador_un_enfoque_espacial [accessed Jun 22 2021].

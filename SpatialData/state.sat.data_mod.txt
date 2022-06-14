@@ -1,0 +1,53 @@
+"oname" "vscore" "mscore" "pc"
+"alabama" "ala" 561 555 9
+"alaska" "alaska" 516 514 50
+"arizona" "ariz" 524 525 34
+"arkansas" "ark" 563 556 6
+"california" "calif" 497 514 49
+"colorado" "colo" 536 540 32
+"connecticut" "conn" 510 509 80
+"delaware" "dela" 503 497 67
+"district of columbia" "d.c." 494 478 77
+"florida" "fla" 499 498 53
+"georgia" "ga" 487 482 63
+"hawaii" "hawaii" 482 513 52
+"idaho" "idaho" 542 540 16
+"illinois" "ill" 569 585 12
+"indiana" "ind" 496 498 60
+"iowa" "iowa" 594 598 5
+"kansas" "kan" 578 576 9
+"kentucky" "ky" 547 547 12
+"louisiana" "la" 561 558 8
+"maine" "maine" 507 503 68
+"maryland" "md" 507 507 65
+"massachusetts" "mass" 511 511 78
+"michigan" "mich" 557 565 11
+"minnesota" "minn" 586 598 9
+"mississippi" "miss" 563 548 4
+"missouri" "mo" 572 572 8
+"montana" "mont" 545 546 21
+"nebraska" "neb" 568 571 8
+"nevada" "nev" 512 517 34
+"new hampshire" "nh" 520 518 72
+"new jersey" "nj" 498 510 80
+"new mexico" "nm" 549 542 12
+"new york" "ny" 495 502 76
+"north carolina" "nc" 493 493 61
+"north dakota" "nd" 594 605 5
+"ohio" "ohio" 534 538 25
+"oklahoma" "okla" 567 560 8
+"oregon" "ore" 525 525 53
+"pennsylvania" "pa" 498 495 70
+"rhode island" "ri" 504 499 70
+"south carolina" "sc" 479 475 61
+"south dakota" "sd" 585 588 4
+"tennessee" "tenn" 559 553 13
+"texas" "texas" 494 499 50
+"utah" "utah" 570 568 5
+"vermont" "vt" 514 506 70
+"virginia" "va" 508 499 65
+"washington" "wash" 525 526 52
+"west virginia" "wva" 527 512 18
+"wisconsin" "wis" 584 595 7
+"wyoming" "wyo" 546 551 10
+"usa" "us" 505 511 43

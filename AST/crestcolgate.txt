@@ -1,0 +1,17 @@
+Cuatro series con los datos en columnas de la cuota de mercado de la pasta de dientes Crest, 
+               de la cuota de mercado de Colgate y del precio de Crest y de Colgate.
+
+Fuente: D.W. WICHERN AND R.H. JONES (1977) "ASSESSING THE IMPACT OF MARKET DISTURBANCES USING
+          INTERVENTION ANALYSIS"  (MANAGEMENT SCIENCE 24: 329 - 337).
+ Periodo : Datos semanales desde el 1 de Enero de 1958 al mes de Abril de  1963. (276 observaciones) 
+
+Los datos estan asi
+  CRESTMS COLGTEMS CRESTPR COLGTEPR.
+  0.108   0.424    2.070   2.050
+  0.166   0.482    2.170   2.100
+  0.126   0.428    2.170   2.040
+...
+  0.391   0.190    1.710   1.800
+  0.473   0.249    1.760   1.810
+  0.384   0.172    1.810   1.670
+

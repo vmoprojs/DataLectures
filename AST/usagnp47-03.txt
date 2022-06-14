@@ -1,0 +1,19 @@
+Datos cuatrimestrales del Real Gross National Product de USA
+desde el primer cuatrimestre de 1947 al segundo del 2003.
+Fuente: http://www.nber.org/cycles.html
+Los datos estan desestacionalizados y corresponden a dolares de 1996
+Hay 226 datos
+
+Las tres columnas son el año, los datos y el número de dato. Comienza como
+
+
+
+  1.9470000e+003  1.4817000e+003  1.0000000e+000
+  1.9470000e+003  1.4894000e+003  2.0000000e+000
+  1.9470000e+003  1.4931000e+003  3.0000000e+000
+
+y termina:
+
+  2.0020000e+003  9.5182000e+003  2.2400000e+002
+  2.0030000e+003  9.5520000e+003  2.2500000e+002
+  2.0030000e+003  9.6081000e+003  2.2600000e+002

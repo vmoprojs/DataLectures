@@ -1,0 +1,10 @@
+Serie de Ozono desde Enero de 1955 a Diciembre de 1972
+
+
+1 1955 2.7
+2 1955 2
+3 1955 3.6
+
+10 1972 2.1
+11 1972 1.6
+12 1972 1.3

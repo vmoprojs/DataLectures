@@ -1,0 +1,1 @@
+Distance of the countries in latam_splm.csv

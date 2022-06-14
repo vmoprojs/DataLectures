@@ -1,0 +1,11 @@
+"Efecto de la política fiscal en expansión y recesión para Ecuador: un modelo MSVAR", 2017, Revista Cuadernos de Economía, Vol 36, No. 71, pp 405-439 
+
+Para la estimación se utilizaron datos con frecuencia mensual entre enero del 2003
+y noviembre del 2013. Las fuentes de información fueron el Banco Central del
+
+Ecuador (BCE) y el Servicio de Rentas Internas (SRI).
+
+
+De acuerdo con la literatura, las variables que ingresaron al modelo fueron: ingresos petroleros (exportaciones y venta de derivados), no petroleros (impuestos, contribuciones a la seguridad social, superávit de empresas públicas y otros), gasto público e Índice de Actividad Empresarial No Petrolera (IAE-NP) como proxy del PIB a nivel mensual. 
+
+Las variables fiscales pertenecen al sector público no financiero.

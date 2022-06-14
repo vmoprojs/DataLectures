@@ -1,0 +1,40 @@
+Fuente: https://contenido.bce.fin.ec/docs.php?path=/documentos/Estadisticas/SectorReal/CuentasCantonales/Indice.htm
+
+
+El conjunto de datos fue tomado del Banco Central del Ecuador. Las columnas describen las siguientes actividades:
+
+Columna	Actividad
+A	Agricultura, ganadería, silvicultura y pesca
+
+B	Explotación de minas y canteras
+
+C-J	"Manufactura
+
+"
+D-E	Suministro de electricidad y de agua
+
+F	"Construcción
+
+"
+G	"Comercio 
+
+"
+I	Alojamiento y servicios de comida
+
+H-J	Transporte, información y comunicaciones
+
+K	"Actividades financieras
+"
+L-M-N	Actividades profesionales e inmobiliarias
+
+O	"Administración pública 
+"
+P	"Enseñanza
+
+"
+Q	"Salud
+
+"
+R-S-T-U	"Otros servicios
+
+"

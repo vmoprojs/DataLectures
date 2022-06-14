@@ -1,0 +1,512 @@
+manitoulin_SG <- sp::SpatialGrid(manitoulin_grd, proj4string = p4s)
+sp::summary(manitoulin_SG)
+# library(raster)
+uu <- "https://raw.githubusercontent.com/vmoprojs/DataLectures/master/SpatialData/70042108.tif"
+r <- raster::raster(uu)
+sessionInfo()
+loadedNamespaces()
+unloadNamespace(loadedNamespaces())
+install.packages("gstat")
+install.packages("gstat")
+install.packages("spatstat")
+install.packages("spacetime")
+devtools::install_github("vmoprojs/GeoModels-OCL")
+devtools::install_github("vmoprojs/GeoModels")
+devtools::install_github("vmoprojs/GeoModels")
+install.packages("RcppGSL")
+install.packages("GSL")
+install.packages("gsl")
+install.packages("RcppGSL")
+devtools::install_github("vmoprojs/GeoModels")
+devtools::install_github("vmoprojs/GeoModels-OCL")
+library(vegan)
+?decostand
+varespec
+data(varespec)
+head(varespec)
+str(varespec)
+sptrans <- decostand(varespec, "standardize")
+sptrans
+ss <- scale(sptrans)
+identical(sptrans,ss)
+summary(ss)
+summary(sptrans)
+summary(ss[,1:3])
+summary(sptrans[,1:3])
+?scale
+sp1 <- scale(sptrans)
+summary(sp1[,1:3])
+# http://www.quintuitive.com/2012/08/22/arma-models-for-trading/
+# https://www.r-bloggers.com/2013/03/automatic-armagarch-selection-in-parallel/
+# https://gist.github.com/ivannp/5198580
+garchAutoTryFit = function(
+ll,
+data,
+trace=FALSE,
+forecast.length=1,
+with.forecast=TRUE,
+ic="AIC",
+garch.model="garch" )
+{
+xxx = paste( sep="",
+"~ arma(", ll$order[1], ",", ll$order[2], ")+",
+garch.model,
+"(", ll$order[3], ",", ll$order[4], ")" )
+formula = formula(paste0(xxx,collapse = "")  )
+fit = tryCatch( suppressWarnings(garchFit( formula=formula,
+data=data,
+trace=FALSE,
+cond.dist=ll$dist )),
+error=function( err ) TRUE
+# ,warning=function( warn ) FALSE
+)
+# print(fit)
+pp = NULL
+if( !is.logical( fit ) ) {
+if( with.forecast ) {
+pp = tryCatch( predict( fit,
+n.ahead=forecast.length,
+doplot=FALSE ),
+error=function( err ) FALSE,
+warning=function( warn ) FALSE )
+if( is.logical( pp ) ) {
+fit = NULL
+}
+}
+} else {
+fit = NULL
+}
+if( trace ) {
+if( is.null( fit ) ) {
+cat( paste( sep="",
+"   Analyzing (", ll$order[1], ",", ll$order[2],
+",", ll$order[3], ",", ll$order[4], ") with ",
+ll$dist, " distribution done.",
+"Bad model.\n" ) )
+} else {
+if( with.forecast ) {
+cat( paste( sep="",
+"   Analyzing (", ll$order[1], ",", ll$order[2], ",",
+ll$order[3], ",", ll$order[4], ") with ",
+ll$dist, " distribution done.",
+"Good model. ", ic, " = ", round(fit@fit$ics[[ic]],6),
+", forecast: ",
+paste( collapse=",", round(pp[,1],4) ), "\n" ) )
+} else {
+cat( paste( sep="",
+"   Analyzing (", ll[1], ",", ll[2], ",", ll[3], ",", ll[4], ") with ",
+ll$dist, " distribution done.",
+"Good model. ", ic, " = ", round(fit@fit$ics[[ic]],6), "\n" ) )
+}
+}
+}
+return( fit )
+}
+garchAuto = function(
+xx,
+min.order=c(0,0,1,1),
+max.order=c(5,5,1,1),
+trace=FALSE,
+cond.dists="sged",
+with.forecast=TRUE,
+forecast.length=1,
+arma.sum=c(0,1e9),
+cores=1,
+ic="AIC",
+garch.model="garch" )
+{
+require( fGarch )
+require( parallel )
+len = NROW( xx )
+models = list( )
+for( dist in cond.dists )
+for( p in min.order[1]:max.order[1] )
+for( q in min.order[2]:max.order[2] )
+for( r in min.order[3]:max.order[3] )
+for( s in min.order[4]:max.order[4] )
+{
+pq.sum = p + q
+if( pq.sum <= arma.sum[2] && pq.sum >= arma.sum[1] )
+{
+models[[length( models ) + 1]] = list( order=c( p, q, r, s ), dist=dist )
+}
+}
+res = mclapply( models,
+garchAutoTryFit,
+data=xx,
+trace=trace,
+ic=ic,
+garch.model=garch.model,
+forecast.length=forecast.length,
+with.forecast=TRUE,
+mc.cores=cores )
+best.fit = NULL
+best.ic = 1e9
+for( rr in res )
+{
+if( !is.null( rr ) )
+{
+current.ic = rr@fit$ics[[ic]]
+if( current.ic < best.ic )
+{
+best.ic = current.ic
+best.fit = rr
+}
+}
+}
+if( best.ic < 1e9 )
+{
+return( best.fit )
+}
+return( NULL )
+}
+library(quantmod)
+library(PerformanceAnalytics)
+library(highcharter)
+prices1 <- Ad(getSymbols("AMZN",auto.assign = FALSE))
+head(prices1)
+hchart(prices1)
+rets1 <- dailyReturn(prices1)
+head(rets1)
+acf(rets1)
+acf(rets1^2)
+y = rets1^2
+garchAuto(y,cond.dists = "norm",max.order = c(1,1,2,1))
+str(y)
+str(y$daily.returns)
+garchAuto(y,cond.dists = "norm",max.order = c(0,0,1,1))
+garchAuto(y,cond.dists = "norm",max.order = c(0,0,1,0))
+garchAuto(y,cond.dists = "norm",max.order = c(0,0,0,1))
+garchAuto(y$daily.returns,cond.dists = "norm",max.order = c(0,0,0,1))
+garchAuto(y$daily.returns,cond.dists = "norm",max.order = c(0,0,1,1))
+y = rets1
+garchAuto(y$daily.returns,cond.dists = "norm",max.order = c(0,0,1,1))
+y = rets1$daily.returns^2
+y$daily.returns
+garchAuto(y$daily.returns,cond.dists = "norm",max.order = c(0,0,1,1))
+y = rets1$daily.returns
+garchAuto(y$daily.returns,cond.dists = "norm",max.order = c(0,0,1,1))
+garchAuto(y$daily.returns,cond.dists = "norm",max.order = c(1,1,2,2))
+y = rets1$daily.returns
+y
+acf(y)
+hist(y)
+plot(density(y))
+library(fGarch)
+spec = garchSpec(model = list(alpha = c(0.5), beta = 0,mu = 5))
+set.seed(1985)
+serie <- garchSim(spec, n = 300)
+plot(serie)
+acf(serie)
+pacf(serie)
+acf(serie^2)
+pacf(serie^2)
+spec = garchSpec(model = list(alpha = c(0.3), beta = c(0.5),mu = 0))
+set.seed(85)
+serie <- garchSim(spec, n = 300)
+plot(serie)
+acf(serie)
+pacf(serie)
+acf(serie^2)
+pacf(serie^2)
+x <- serie
+y = x - mean(x) #centramos x
+x.g = garchFit(~garch(1,0), y, include.mean=F,trace = FALSE)
+print(x.g)
+x.g1 = garchFit(~garch(2,0), y, include.mean=F,trace = FALSE)
+print(x.g1)
+# http://www.quintuitive.com/2012/08/22/arma-models-for-trading/
+# https://www.r-bloggers.com/2013/03/automatic-armagarch-selection-in-parallel/
+# https://gist.github.com/ivannp/5198580
+garchAutoTryFit = function(
+ll,
+data,
+trace=FALSE,
+forecast.length=1,
+with.forecast=TRUE,
+ic="AIC",
+garch.model="garch" )
+{
+xxx = paste( sep="",
+"~ arma(", ll$order[1], ",", ll$order[2], ")+",
+garch.model,
+"(", ll$order[3], ",", ll$order[4], ")" )
+formula = formula(paste0(xxx,collapse = "")  )
+fit = tryCatch( suppressWarnings(garchFit( formula=formula,
+data=data,
+trace=FALSE,
+cond.dist=ll$dist )),
+error=function( err ) TRUE
+# ,warning=function( warn ) FALSE
+)
+# print(fit)
+pp = NULL
+if( !is.logical( fit ) ) {
+if( with.forecast ) {
+pp = tryCatch( predict( fit,
+n.ahead=forecast.length,
+doplot=FALSE ),
+error=function( err ) FALSE,
+warning=function( warn ) FALSE )
+if( is.logical( pp ) ) {
+fit = NULL
+}
+}
+} else {
+fit = NULL
+}
+if( trace ) {
+if( is.null( fit ) ) {
+cat( paste( sep="",
+"   Analyzing (", ll$order[1], ",", ll$order[2],
+",", ll$order[3], ",", ll$order[4], ") with ",
+ll$dist, " distribution done.",
+"Bad model.\n" ) )
+} else {
+if( with.forecast ) {
+cat( paste( sep="",
+"   Analyzing (", ll$order[1], ",", ll$order[2], ",",
+ll$order[3], ",", ll$order[4], ") with ",
+ll$dist, " distribution done.",
+"Good model. ", ic, " = ", round(fit@fit$ics[[ic]],6),
+", forecast: ",
+paste( collapse=",", round(pp[,1],4) ), "\n" ) )
+} else {
+cat( paste( sep="",
+"   Analyzing (", ll[1], ",", ll[2], ",", ll[3], ",", ll[4], ") with ",
+ll$dist, " distribution done.",
+"Good model. ", ic, " = ", round(fit@fit$ics[[ic]],6), "\n" ) )
+}
+}
+}
+return( fit )
+}
+garchAuto = function(
+xx,
+min.order=c(0,0,1,1),
+max.order=c(5,5,1,1),
+trace=FALSE,
+cond.dists="sged",
+with.forecast=TRUE,
+forecast.length=1,
+arma.sum=c(0,1e9),
+cores=1,
+ic="AIC",
+garch.model="garch" )
+{
+require( fGarch )
+require( parallel )
+len = NROW( xx )
+models = list( )
+for( dist in cond.dists )
+for( p in min.order[1]:max.order[1] )
+for( q in min.order[2]:max.order[2] )
+for( r in min.order[3]:max.order[3] )
+for( s in min.order[4]:max.order[4] )
+{
+pq.sum = p + q
+if( pq.sum <= arma.sum[2] && pq.sum >= arma.sum[1] )
+{
+models[[length( models ) + 1]] = list( order=c( p, q, r, s ), dist=dist )
+}
+}
+res = mclapply( models,
+garchAutoTryFit,
+data=xx,
+trace=trace,
+ic=ic,
+garch.model=garch.model,
+forecast.length=forecast.length,
+with.forecast=TRUE,
+mc.cores=cores )
+best.fit = NULL
+best.ic = 1e9
+for( rr in res )
+{
+if( !is.null( rr ) )
+{
+current.ic = rr@fit$ics[[ic]]
+if( current.ic < best.ic )
+{
+best.ic = current.ic
+best.fit = rr
+}
+}
+}
+if( best.ic < 1e9 )
+{
+return( best.fit )
+}
+return( NULL )
+}
+sol <- garchAuto(serie,max.order = c(0,0,3,3),trace = FALSE)
+sol@formula
+acf(serie)
+acf(serie^2)
+acf(serie)
+hist(serie)
+acf(serie)
+acf(serie^2)
+y = rets1$daily.returns
+garchAuto(y$daily.returns,cond.dists = "norm",max.order = c(0,0,2,2))
+garchAuto(y$daily.returns,cond.dists = "norm",max.order = c(0,0,4,4),cores = 8)
+?garchAuto
+garchAuto
+setwd("~/Documents/Consultorias&Cursos/DataLectures")
+knitr::opts_chunk$set(echo = TRUE)
+dat <- rio::import("InlacionEC.csv")
+setwd("~/Documents/Consultorias&Cursos/DataLectures")
+dat <- rio::import("InlacionEC.csv")
+setwd("~/Documents/Consultorias&Cursos/DataLectures")
+dat <- rio::import("InflacionEC.csv")
+View(dat)
+datos <- dat[13:72,]
+datos.ts <- ts(datos[,2:ncol(datos)],st = c(2016,1),fr = 12)
+View(datos.ts)
+ggplot2::autoplot(datos.ts)
+ggplot2::autoplot(diff(datos.ts))
+ggplot2::autoplot((datos.ts))
+ggplot2::autoplot((datos.ts))
+ggplot2::autoplot(diff(datos.ts))
+datosCrec <- diff(log(datos.ts))
+plot(datosCrec)
+datosCrec <- diff(log(datos.ts))
+sol <- NULL
+for(i in 1:ncol(datosCrec))
+{
+# i = 1
+aux <- pp.test(datosCrec[,i]) #Ho: non stationarity
+sol <- c(sol,aux$p.value)
+}
+datosCrec <- diff(log(datos.ts))
+library(tseries)
+sol <- NULL
+for(i in 1:ncol(datosCrec))
+{
+# i = 1
+aux <- pp.test(datosCrec[,i]) #Ho: non stationarity
+sol <- c(sol,aux$p.value)
+}
+names(sol) <- colnames(datosCrec)
+sol
+VARselect(datosCrec, type = "none", lag.max = 5)
+# Escogemos el mejor modelo
+library(vars)
+VARselect(datosCrec, type = "none", lag.max = 5)
+modVar <- VAR(datosCrec, 2, type = "none")
+summary(modVar)
+modVar <- VAR(datosCrec, 1, type = "none")
+summary(modVar)
+modVar <- VAR(datosCrec, 2, type = "none")
+summary(modVar)
+# Revisamos los residuos del modelo:
+rr <- resid(modVar)
+Box.test(rr[,1]);Box.test(rr[,2]);Box.test(rr[,3]);Box.test(rr[,4])
+Box.test(rr[,1]);Box.test(rr[,2]);Box.test(rr[,3]);Box.test(rr[,4]);Box.test(rr[,5])
+variables <- colnames(datosCrec)
+variables
+i = 2
+j = 1
+ir.1 <- irf(modVar, impulse = variables[i], response = variables[j], n.ahead = 20, ortho = FALSE)
+ir.1 <- irf(modVar, impulse = variables[i], response = variables[j], n.ahead = 20, ortho = FALSE)
+plot(ir.1)
+i = 3
+j = 1
+ir.1 <- irf(modVar, impulse = variables[i], response = variables[j], n.ahead = 20, ortho = FALSE)
+ir.1 <- irf(modVar, impulse = variables[i], response = variables[j], n.ahead = 20, ortho = FALSE)
+plot(ir.1)
+ir.1 <- irf(modVar,  response = variables[j], n.ahead = 20, ortho = FALSE)
+plot(ir.1)
+plot(ir.1)
+variables <- colnames(datosCrec)
+i = 3
+j = 1
+ir.1 <- irf(modVar,  response = variables[j], n.ahead = 12, ortho = TRUE,cumulative = TRUE)
+ir.2 <- irf(modVar,  response = variables[j], n.ahead = 12, ortho = TRUE,cumulative = TRUE)
+plot(ir.2)
+ir.1 <- irf(modVar,  response = variables[j], n.ahead = 12, ortho = FALSE)
+plot(ir.1)
+ir.2 <- irf(modVar,  response = variables[j], n.ahead = 12, ortho = FALSE,cumulative = TRUE)
+plot(ir.2)
+par(mfrow = c(2,2))
+plot(ir.1)
+par(mfrow = c(1,1))
+par(mfrow = c(2,2))
+plot(ir.1)
+?plot
+?vars::plot
+?vars::plot.varest
+?vars::irf
+?vars::plot.varirf
+normality.test(modVar)
+?normality.test
+plot(normality.test(modVar))
+m1 <- lm(y~x)
+y <- datosCrec[,"IPC"]
+x <- datosCrec[,"RI"]
+m1 <- lm(y~x)
+resm1 <- resid(m1)
+pp.test(resm1)
+Box.test(resm1,type = "Ljung-Box",lag = 5) #Ho: independencia
+n <- length(y)
+ecm1 <- lm(diff(y)~diff(x)+lag(resm1[2:(n)],1))
+summary(ecm1)
+po.test(y,x)
+po.test(cbind(y,x))
+?causality
+i = 1
+for(i in 1:ncol(datosCrec))
+{
+variable = colnames(datosCrec)[i]
+cat("\n-------",variable,"--------\n")
+print(causality(modVar,cause = variable))
+}
+#
+y <- datosCrec[,"IPC"]
+x <- datosCrec[,"GP"]
+m1 <- lm(y~x)
+po.test(cbind(y,x)) #Ho: no cointegradas
+resm1 <- resid(m1)
+pp.test(resm1)
+Box.test(resm1,type = "Ljung-Box",lag = 5) #Ho: independencia
+n <- length(y)
+ecm1 <- lm(diff(y)~diff(x)+lag(resm1[2:(n)],1))
+summary(ecm1)
+#
+y <- datosCrec[,"IPC"]
+x <- datosCrec[,"IR"]
+m1 <- lm(y~x)
+po.test(cbind(y,x)) #Ho: no cointegradas
+resm1 <- resid(m1)
+pp.test(resm1)
+Box.test(resm1,type = "Ljung-Box",lag = 5) #Ho: independencia
+n <- length(y)
+ecm1 <- lm(diff(y)~diff(x)+lag(resm1[2:(n)],1))
+summary(ecm1)
+ecm1 <- lm(diff(y)~diff(x)+lag(resm1[1:(n-1)],1))
+summary(ecm1)
+#
+y <- datosCrec[,"IPC"]
+x <- datosCrec[,"M1"]
+m1 <- lm(y~x)
+po.test(cbind(y,x)) #Ho: no cointegradas
+resm1 <- resid(m1)
+pp.test(resm1)
+Box.test(resm1,type = "Ljung-Box",lag = 5) #Ho: independencia
+n <- length(y)
+ecm1 <- lm(diff(y)~diff(x)+lag(resm1[2:(n)],1))
+summary(ecm1)
+#
+y <- datosCrec[,"IPC"]
+x <- datosCrec[,"RI"]
+m1 <- lm(y~x)
+po.test(cbind(y,x)) #Ho: no cointegradas
+resm1 <- resid(m1)
+pp.test(resm1)
+Box.test(resm1,type = "Ljung-Box",lag = 5) #Ho: independencia
+n <- length(y)
+ecm1 <- lm(diff(y)~diff(x)+lag(resm1[2:(n)],1))
+summary(ecm1)
+sample(1:8)
+sample(1:10)
+sample(1:8)

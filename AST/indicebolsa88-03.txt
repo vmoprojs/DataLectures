@@ -1,0 +1,16 @@
+Nombre de las serie:  Indice general de la Bolsa de Madrid, base diciembre 2001=1000
+ 
+                          
+Perido   : datos mensuales desde enero de 1988 hasta Mayo de 2003
+Fuente   :Banco de España e INE
+
+comienzo: 
+  2.4931319e+002
+  2.5410373e+002
+  2.7089199e+002
+ ...
+  6.2400000e+002
+  6.2650000e+002
+  6.1400000e+002
+  6.7500000e+002
+  6.7970000e+002

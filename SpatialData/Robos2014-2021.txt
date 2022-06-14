@@ -1,0 +1,20 @@
+Fuente: http://cifras.ministeriodegobierno.gob.ec/comisioncifras/inicio.php
+
+Fuente:	Registros administrativos de denuncias receptadas en el Sistema Integrado de Administración de Fiscalías (SIAF) - Comisión Estadística de Seguridad Ciudadana y Justicia			
+Fecha de Corte:	31-1-2021			
+Elaborado por:	Dirección de Diseño e Implementación de TI (MDG)			
+
+"DELITO" Tipo de delito (ROBO A DOMICILIO;	ROBO A PERSONAS;	ROBO A UNIDADES ECONÓMICAS;	ROBO DE BIENES, ACCESORIOS Y AUTOPARTES DE VEHÍCULOS;	ROBO DE CARROS;	ROBO DE MOTOS)
+
+"PROVINCIA" nombre provincia
+
+"DES_CANTON" nombre canton 
+
+"MES": mes
+
+"year"  año   
+
+"NumDelitos" numero de delitos 
+
+"COD_CANT" código canton
+					

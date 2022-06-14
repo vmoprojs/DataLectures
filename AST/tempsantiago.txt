@@ -1,0 +1,18 @@
+Serie:  Temperaturas medias mensuales de Santiago de Compostela 
+		
+Unidad: grados centígrados								
+Perido Enero 1997 a Diciembre 2001
+
+Fuente de información: Dirección General del Instituto Nacional de Meteorología.
+Contacto:  INE Difusión. E-mail: info@ine.es. Internet: www.ine.es.
+ 7.7 
+10.0
+14.5
+14.8
+14.4
+.
+.
+.
+14.9	  
+9.1
+7.1

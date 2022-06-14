@@ -1,0 +1,18 @@
+Source: Cuentas Trimestrales BCE https://contenido.bce.fin.ec/home1/estadisticas/cntrimestral/CNTrimestral.jsp
+
+Download date: 15 junio 2021
+
+PIB: P.I.B.	
+IMPOR: Importaciones de bienes y servicios (fob)	
+OF: Oferta final	
+DI: Demanda interna	
+GCFH: Gasto de Consumo final  Hogares (*)	
+GCFGC: Gasto de Consumo final Gobierno General	
+FBKF	
+VE: Variación de existencias	
+EXPOR: Exportaciones de bienes y servicios (fob)	
+UF: Utilización final
+
+pib_ec: dólares corrientes
+pib_ec_const: dólares constantes del 2007
+

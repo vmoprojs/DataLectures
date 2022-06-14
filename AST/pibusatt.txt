@@ -1,0 +1,16 @@
+Serie en logaritmos del PIB desastacionalizado de USA
+Periodo :1/ 1947 a 1/1991. Total 177 observaciones
+Utilizada en el articulo de Tiao and Tsay en Journal of Forecasting,13, 1994.  
+
+Comienzo de los datos
+
+
+    6.96272
+    6.96904
+    6.97270
+
+
+    8.33567
+    8.33168
+    8.32518
+

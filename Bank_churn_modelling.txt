@@ -1,0 +1,45 @@
+RowNumber
+no of rows
+
+CustomerId
+id number of a customer
+
+Surname
+name of a customer
+
+CreditScore
+A credit score is a statistical number that evaluates a consumer's creditworthiness and is based on credit history: 
+
+Geography
+A geographer tries to understand the world and the things that are in it, how they started and how they have changed.
+
+Gender
+male or female
+
+Age
+before death
+
+Tenure
+the conditions under which land or buildings are held or occupied.
+
+Balance
+money left in bank account
+
+NumOfProducts
+how many products
+
+HasCrCard
+how many credit cards per person
+
+IsActiveMember
+he or she active in bank or not
+
+EstimatedSalary
+salary per average person
+
+Exited
+those who are left and not left the bank
+
+
+
+SOURCE: https://www.kaggle.com/sanjanavoona1043/bank-churn
