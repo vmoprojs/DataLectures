@@ -1,0 +1,11 @@
+Campo	Descripción
+codigoCliente	Identificación del cliente
+sumValTot	Suma del valor transaccionado al mes
+Frecuencia	Número de transacciones del mes
+edad	Edad del cliente
+estadoCivil	C: Casada, D: Divorciada, N & missing: Sin info, S: Soltera, U: Unida, V: viuda
+nivelEducacion	missing o N: Sin info, P o S: primaria o secundaria, Sup: Superior
+sexo	F: Femenino, M: Masculino
+tipoVivienda	P: Propia, NP: No propia
+nivelIngresos	Ingresos del cliente
+Uafe	1: sospechosa, 0: no sospechosa
