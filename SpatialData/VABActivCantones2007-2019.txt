@@ -1,4 +1,4 @@
-Fuente: https://contenido.bce.fin.ec/docs.php?path=/documentos/Estadisticas/SectorReal/CuentasCantonales/Indice.htm
+Fuente: https://contenido.bce.fin.ec/docs.php?path=/documentos/Estadisticas/SectorReal/CuentasCantonales/Indice.html
 
 
 El conjunto de datos fue tomado del Banco Central del Ecuador. Las columnas describen las siguientes actividades:

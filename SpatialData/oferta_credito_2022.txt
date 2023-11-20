@@ -1,0 +1,6 @@
+https://contenido.bce.fin.ec/documentos/Estadisticas/SectorMonFin/TasasInteres/SegmentoTasasInteres.html
+
+"DPA_CANTON"   código de la division polaco administrativa de los cantones de ecuador
+"prom_consumo"    total otorgado dividido para el numero de operaciones en el segmento consumo
+"prom_micro"     total otorgado dividido para el numero de operaciones en el segmento micro (minorista, simple y ampliado)"prom_productivo" total otorgado dividido para el numero de operaciones en el segmento productivo (únicamente Pymes, excluye corporativo y empresarial)
+					
