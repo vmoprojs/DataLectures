@@ -1,4 +1,4 @@
-crime2.dat stammt aus crime.dat. Die Tausender wurden ausgeschrieben und
+ crime2.dat stammt aus crime.dat. Die Tausender wurden ausgeschrieben und
 die US-Staaten abgekuerzt wie folgt: (praktischer fuer Biplot!) 
 
 https://stat.ethz.ch/Teaching/kuensch/Regression/Datasets/WBL/
