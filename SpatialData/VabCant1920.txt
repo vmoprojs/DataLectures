@@ -1,0 +1,34 @@
+VAB Cantonal 2019 y 2020 en miles de dólares.
+
+Fuente: BCE (https://contenido.bce.fin.ec/documentos/Estadisticas/SectorReal/CuentasCantonales/Indice.htm)
+
+Fecha descarga: 20 jun 2024.
+
+A	Agricultura, ganadería, silvicultura y pesca
+B	Explotación de minas y canteras
+C-J	"Manufactura
+
+"
+D-E	Suministro de electricidad y de agua
+F	"Construcción
+
+"
+G	"Comercio 
+
+"
+I	Alojamiento y servicios de comida
+H-J	Transporte, información y comunicaciones
+K	"Actividades financieras
+"
+L-M-N	Actividades profesionales e inmobiliarias
+O	"Administración pública 
+"
+P	"Enseñanza
+
+"
+Q	"Salud
+
+"
+R-S-T-U	"Otros servicios
+
+"
