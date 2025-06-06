@@ -1,0 +1,13 @@
+CANTON_CODIGO: Código DPA del canton
+VOTOS_DANIEL_23: Numero de votos por Daniel Noboa 2023
+VOTOS_LUISA_23: Numero de votos por Luisa Gonzalez 2023
+SUFRAGANTES_23: Numero total de sufragantes 2023 
+PORC_LUISA_23: Porcentaje de votos por Luisa 2023
+PORC_DANIEL_23: Porcentaje de votos por Daniel 2023
+VOTOS_DANIEL_25: Numero de votos por Daniel Noboa 2025
+VOTOS_LUISA_25: Numero de votos por Luisa Gonzalez 2025
+SUFRAGANTES_25: Numero total de sufragantes 2025
+PORC_LUISA_25: Porcentaje de votos por Luisa 2025
+PORC_DANIEL_25: Porcentaje de votos por Daniel 2025
+
+Fuente: CNE (https://www.cne.gob.ec/estadisticas/bases-de-datos/)
