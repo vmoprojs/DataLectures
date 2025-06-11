@@ -1,21 +1,23 @@
-	Number of hours an individual typically spends alone daily
+Time_spent_Alone : Number of hours an individual typically spends alone daily
 	
 
-Whether the person experiences stage fear
+Stage_fear: Whether the person experiences stage fear
 	
 
-Frequency (scale 0-10) of attending social events.
+Social_event_attendance: Frequency (scale 0-10) of attending social events.
 	
 
-How often the individual goes outside (scale 0-10).
+Going_outside: How often the individual goes outside (scale 0-10).
 	
 
-Whether the individual feels drained after socializing
+Drained_after_socializing: Whether the individual feels drained after socializing
 	
 
-Number of close friends
+Friends_circle_size: Number of close friends
 	
 
-Frequency of posting on social media
+Post_frequency: Frequency of posting on social media
 	
-Target variable: Introvert or Extrovert.
+Personality  (Target variable): Introvert or Extrovert.
+
+Source: https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data/data
