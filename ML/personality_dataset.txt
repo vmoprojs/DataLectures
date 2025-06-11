@@ -1,0 +1,21 @@
+	Number of hours an individual typically spends alone daily
+	
+
+Whether the person experiences stage fear
+	
+
+Frequency (scale 0-10) of attending social events.
+	
+
+How often the individual goes outside (scale 0-10).
+	
+
+Whether the individual feels drained after socializing
+	
+
+Number of close friends
+	
+
+Frequency of posting on social media
+	
+Target variable: Introvert or Extrovert.
